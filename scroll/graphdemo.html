@@ -34,7 +34,7 @@
       .charge(-100)
       .size([width, height]);
 
-  d3.json("https://raw.githubusercontent.com/malaikahanda/clothes/master/graph.json", function(error, json) {
+  d3.json("https://raw.githubusercontent.com/malaikahanda/clothes/master/data/graph.json", function(error, json) {
     if (error) throw error;
 
     force
@@ -54,7 +54,7 @@
         .call(force.drag);
 
     node.append("image")
-        .attr("xlink:href", "https://raw.githubusercontent.com/malaikahanda/clothes/master/croptop.png")
+        .attr("xlink:href", function(d) { return d.img; })
         .attr("x", -8)
         .attr("y", -8)
         .attr("width", 16)
