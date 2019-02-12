@@ -1,0 +1,246 @@
+{
+  "nodes": [
+    {
+      "name": "black corduroys",
+      "value": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/black_corduroys.png"
+    },
+    {
+      "name": "r&g t shirt",
+      "value": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/r&g_t_shirt.png"
+    },
+    {
+      "name": "maroon sweater",
+      "value": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/maroon_sweater.png"
+    },
+    {
+      "name": "black boots",
+      "value": 4,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/black_boots.png"
+    },
+    {
+      "name": "red bombas",
+      "value": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/red_bombas.png"
+    },
+    {
+      "name": "black tights",
+      "value": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/black_tights.png"
+    },
+    {
+      "name": "purple lace dress",
+      "value": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/purple_lace_dress.png"
+    },
+    {
+      "name": "dark grey bombas",
+      "value": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/dark_grey_bombas.png"
+    },
+    {
+      "name": "light skinny jeans",
+      "value": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/light_skinny_jeans.png"
+    },
+    {
+      "name": "flower crop top",
+      "value": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/flower_crop_top.png"
+    },
+    {
+      "name": "alpaca sweater",
+      "value": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/alpaca_sweater.png"
+    },
+    {
+      "name": "striped sweater",
+      "value": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/striped_sweater.png"
+    },
+    {
+      "name": "google socks",
+      "value": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/google_socks.png"
+    },
+    {
+      "name": "blue flowered tank top",
+      "value": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/blue_flowered_tank_top.png"
+    }
+  ],
+  "links": [
+    {
+      "source": 3,
+      "target": 0,
+      "value": 2
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 4,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "value": 2
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "value": 1
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "value": 1
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 6,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 3,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 7,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 8,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 8,
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "value": 1
+    },
+    {
+      "source": 9,
+      "target": 8,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 13,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 11,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 13,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 11,
+      "value": 1
+    },
+    {
+      "source": 13,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 13,
+      "target": 11,
+      "value": 1
+    },
+    {
+      "source": 12,
+      "target": 11,
+      "value": 1
+    }
+  ]
+}
