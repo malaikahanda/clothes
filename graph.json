@@ -187,708 +187,708 @@
   ],
   "links": [
     {
-      "source": "black boots",
-      "target": "black corduroys",
+      "source": 3,
+      "target": 0,
       "value": 3
     },
     {
-      "source": "black boots",
-      "target": "maroon sweater",
+      "source": 3,
+      "target": 2,
       "value": 2
     },
     {
-      "source": "black boots",
-      "target": "r&g t shirt",
+      "source": 3,
+      "target": 1,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "red bombas",
+      "source": 3,
+      "target": 4,
       "value": 1
     },
     {
-      "source": "black corduroys",
-      "target": "maroon sweater",
+      "source": 0,
+      "target": 2,
       "value": 1
     },
     {
-      "source": "black corduroys",
-      "target": "r&g t shirt",
+      "source": 0,
+      "target": 1,
       "value": 1
     },
     {
-      "source": "black corduroys",
-      "target": "red bombas",
+      "source": 0,
+      "target": 4,
       "value": 1
     },
     {
-      "source": "maroon sweater",
-      "target": "r&g t shirt",
+      "source": 2,
+      "target": 1,
       "value": 1
     },
     {
-      "source": "maroon sweater",
-      "target": "red bombas",
+      "source": 2,
+      "target": 4,
       "value": 1
     },
     {
-      "source": "r&g t shirt",
-      "target": "red bombas",
+      "source": 1,
+      "target": 4,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "black tights",
+      "source": 3,
+      "target": 5,
       "value": 6
     },
     {
-      "source": "black boots",
-      "target": "dark grey bombas",
+      "source": 3,
+      "target": 7,
       "value": 2
     },
     {
-      "source": "black boots",
-      "target": "purple lace dress",
+      "source": 3,
+      "target": 6,
       "value": 1
     },
     {
-      "source": "black tights",
-      "target": "dark grey bombas",
+      "source": 5,
+      "target": 7,
       "value": 1
     },
     {
-      "source": "black tights",
-      "target": "purple lace dress",
+      "source": 5,
+      "target": 6,
       "value": 1
     },
     {
-      "source": "dark grey bombas",
-      "target": "purple lace dress",
+      "source": 7,
+      "target": 6,
       "value": 1
     },
     {
-      "source": "alpaca sweater",
-      "target": "black boots",
+      "source": 10,
+      "target": 3,
       "value": 1
     },
     {
-      "source": "alpaca sweater",
-      "target": "dark grey bombas",
+      "source": 10,
+      "target": 7,
       "value": 1
     },
     {
-      "source": "alpaca sweater",
-      "target": "flower crop top",
+      "source": 10,
+      "target": 9,
       "value": 1
     },
     {
-      "source": "alpaca sweater",
-      "target": "light skinny jeans",
+      "source": 10,
+      "target": 8,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "flower crop top",
+      "source": 3,
+      "target": 9,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "light skinny jeans",
+      "source": 3,
+      "target": 8,
       "value": 2
     },
     {
-      "source": "dark grey bombas",
-      "target": "flower crop top",
+      "source": 7,
+      "target": 9,
       "value": 1
     },
     {
-      "source": "dark grey bombas",
-      "target": "light skinny jeans",
+      "source": 7,
+      "target": 8,
       "value": 1
     },
     {
-      "source": "flower crop top",
-      "target": "light skinny jeans",
+      "source": 9,
+      "target": 8,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "blue flowered tank top",
+      "source": 3,
+      "target": 13,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "google socks",
+      "source": 3,
+      "target": 12,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "striped sweater",
+      "source": 3,
+      "target": 11,
       "value": 3
     },
     {
-      "source": "black corduroys",
-      "target": "blue flowered tank top",
+      "source": 0,
+      "target": 13,
       "value": 1
     },
     {
-      "source": "black corduroys",
-      "target": "google socks",
+      "source": 0,
+      "target": 12,
       "value": 1
     },
     {
-      "source": "black corduroys",
-      "target": "striped sweater",
+      "source": 0,
+      "target": 11,
       "value": 1
     },
     {
-      "source": "blue flowered tank top",
-      "target": "google socks",
+      "source": 13,
+      "target": 12,
       "value": 1
     },
     {
-      "source": "blue flowered tank top",
-      "target": "striped sweater",
+      "source": 13,
+      "target": 11,
       "value": 1
     },
     {
-      "source": "google socks",
-      "target": "striped sweater",
+      "source": 12,
+      "target": 11,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "black flowered dress",
+      "source": 3,
+      "target": 14,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "blue ankle bombas",
+      "source": 3,
+      "target": 15,
       "value": 2
     },
     {
-      "source": "black flowered dress",
-      "target": "black tights",
+      "source": 14,
+      "target": 5,
       "value": 1
     },
     {
-      "source": "black flowered dress",
-      "target": "blue ankle bombas",
+      "source": 14,
+      "target": 15,
       "value": 1
     },
     {
-      "source": "black tights",
-      "target": "blue ankle bombas",
+      "source": 5,
+      "target": 15,
       "value": 2
     },
     {
-      "source": "black boots",
-      "target": "black lace tank top",
+      "source": 3,
+      "target": 18,
       "value": 3
     },
     {
-      "source": "black boots",
-      "target": "dark skinny jeans",
+      "source": 3,
+      "target": 16,
       "value": 3
     },
     {
-      "source": "black boots",
-      "target": "grey cable knit sweater",
+      "source": 3,
+      "target": 17,
       "value": 3
     },
     {
-      "source": "black boots",
-      "target": "light grey bombas",
+      "source": 3,
+      "target": 19,
       "value": 2
     },
     {
-      "source": "black lace tank top",
-      "target": "dark skinny jeans",
+      "source": 18,
+      "target": 16,
       "value": 2
     },
     {
-      "source": "black lace tank top",
-      "target": "grey cable knit sweater",
+      "source": 18,
+      "target": 17,
       "value": 2
     },
     {
-      "source": "black lace tank top",
-      "target": "light grey bombas",
+      "source": 18,
+      "target": 19,
       "value": 1
     },
     {
-      "source": "dark skinny jeans",
-      "target": "grey cable knit sweater",
+      "source": 16,
+      "target": 17,
       "value": 1
     },
     {
-      "source": "dark skinny jeans",
-      "target": "light grey bombas",
+      "source": 16,
+      "target": 19,
       "value": 1
     },
     {
-      "source": "grey cable knit sweater",
-      "target": "light grey bombas",
+      "source": 17,
+      "target": 19,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "navy blue crew bombas",
+      "source": 3,
+      "target": 21,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "red lace shirt",
+      "source": 3,
+      "target": 20,
       "value": 1
     },
     {
-      "source": "black lace tank top",
-      "target": "navy blue crew bombas",
+      "source": 18,
+      "target": 21,
       "value": 1
     },
     {
-      "source": "black lace tank top",
-      "target": "red lace shirt",
+      "source": 18,
+      "target": 20,
       "value": 1
     },
     {
-      "source": "dark skinny jeans",
-      "target": "navy blue crew bombas",
+      "source": 16,
+      "target": 21,
       "value": 1
     },
     {
-      "source": "dark skinny jeans",
-      "target": "red lace shirt",
+      "source": 16,
+      "target": 20,
       "value": 1
     },
     {
-      "source": "navy blue crew bombas",
-      "target": "red lace shirt",
+      "source": 21,
+      "target": 20,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "red lace up dress",
+      "source": 3,
+      "target": 22,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "short striped bombas",
+      "source": 3,
+      "target": 23,
       "value": 2
     },
     {
-      "source": "black tights",
-      "target": "red lace up dress",
+      "source": 5,
+      "target": 22,
       "value": 1
     },
     {
-      "source": "black tights",
-      "target": "short striped bombas",
+      "source": 5,
+      "target": 23,
       "value": 2
     },
     {
-      "source": "red lace up dress",
-      "target": "short striped bombas",
+      "source": 22,
+      "target": 23,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "cream dress",
+      "source": 3,
+      "target": 24,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "flower crown",
+      "source": 3,
+      "target": 26,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "pink bralette",
+      "source": 3,
+      "target": 25,
       "value": 1
     },
     {
-      "source": "black tights",
-      "target": "cream dress",
+      "source": 5,
+      "target": 24,
       "value": 1
     },
     {
-      "source": "black tights",
-      "target": "flower crown",
+      "source": 5,
+      "target": 26,
       "value": 1
     },
     {
-      "source": "black tights",
-      "target": "pink bralette",
+      "source": 5,
+      "target": 25,
       "value": 1
     },
     {
-      "source": "cream dress",
-      "target": "flower crown",
+      "source": 24,
+      "target": 26,
       "value": 1
     },
     {
-      "source": "cream dress",
-      "target": "pink bralette",
+      "source": 24,
+      "target": 25,
       "value": 1
     },
     {
-      "source": "cream dress",
-      "target": "short striped bombas",
+      "source": 24,
+      "target": 23,
       "value": 1
     },
     {
-      "source": "flower crown",
-      "target": "pink bralette",
+      "source": 26,
+      "target": 25,
       "value": 1
     },
     {
-      "source": "flower crown",
-      "target": "short striped bombas",
+      "source": 26,
+      "target": 23,
       "value": 1
     },
     {
-      "source": "pink bralette",
-      "target": "short striped bombas",
+      "source": 25,
+      "target": 23,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "black ripped jeans",
+      "source": 3,
+      "target": 27,
       "value": 3
     },
     {
-      "source": "black boots",
-      "target": "brown bombas",
+      "source": 3,
+      "target": 28,
       "value": 4
     },
     {
-      "source": "black boots",
-      "target": "grey flowered sweater",
+      "source": 3,
+      "target": 29,
       "value": 1
     },
     {
-      "source": "black ripped jeans",
-      "target": "brown bombas",
+      "source": 27,
+      "target": 28,
       "value": 1
     },
     {
-      "source": "black ripped jeans",
-      "target": "grey flowered sweater",
+      "source": 27,
+      "target": 29,
       "value": 1
     },
     {
-      "source": "brown bombas",
-      "target": "grey flowered sweater",
+      "source": 28,
+      "target": 29,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "black bralette",
+      "source": 3,
+      "target": 32,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "black lace shirt",
+      "source": 3,
+      "target": 31,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "blue plaid skirt",
+      "source": 3,
+      "target": 30,
       "value": 1
     },
     {
-      "source": "black bralette",
-      "target": "black lace shirt",
+      "source": 32,
+      "target": 31,
       "value": 1
     },
     {
-      "source": "black bralette",
-      "target": "black tights",
+      "source": 32,
+      "target": 5,
       "value": 1
     },
     {
-      "source": "black bralette",
-      "target": "blue plaid skirt",
+      "source": 32,
+      "target": 30,
       "value": 1
     },
     {
-      "source": "black bralette",
-      "target": "brown bombas",
+      "source": 32,
+      "target": 28,
       "value": 1
     },
     {
-      "source": "black lace shirt",
-      "target": "black tights",
+      "source": 31,
+      "target": 5,
       "value": 1
     },
     {
-      "source": "black lace shirt",
-      "target": "blue plaid skirt",
+      "source": 31,
+      "target": 30,
       "value": 1
     },
     {
-      "source": "black lace shirt",
-      "target": "brown bombas",
+      "source": 31,
+      "target": 28,
       "value": 1
     },
     {
-      "source": "black tights",
-      "target": "blue plaid skirt",
+      "source": 5,
+      "target": 30,
       "value": 1
     },
     {
-      "source": "black tights",
-      "target": "brown bombas",
+      "source": 5,
+      "target": 28,
       "value": 1
     },
     {
-      "source": "blue plaid skirt",
-      "target": "brown bombas",
+      "source": 30,
+      "target": 28,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "grey cardigan",
+      "source": 3,
+      "target": 34,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "polka dot socks",
+      "source": 3,
+      "target": 35,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "tribal tank top",
+      "source": 3,
+      "target": 33,
       "value": 1
     },
     {
-      "source": "dark skinny jeans",
-      "target": "grey cardigan",
+      "source": 16,
+      "target": 34,
       "value": 1
     },
     {
-      "source": "dark skinny jeans",
-      "target": "polka dot socks",
+      "source": 16,
+      "target": 35,
       "value": 1
     },
     {
-      "source": "dark skinny jeans",
-      "target": "tribal tank top",
+      "source": 16,
+      "target": 33,
       "value": 1
     },
     {
-      "source": "grey cardigan",
-      "target": "polka dot socks",
+      "source": 34,
+      "target": 35,
       "value": 1
     },
     {
-      "source": "grey cardigan",
-      "target": "tribal tank top",
+      "source": 34,
+      "target": 33,
       "value": 1
     },
     {
-      "source": "polka dot socks",
-      "target": "tribal tank top",
+      "source": 35,
+      "target": 33,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "black triangle dress",
+      "source": 3,
+      "target": 36,
       "value": 1
     },
     {
-      "source": "black tights",
-      "target": "black triangle dress",
+      "source": 5,
+      "target": 36,
       "value": 1
     },
     {
-      "source": "black triangle dress",
-      "target": "blue ankle bombas",
+      "source": 36,
+      "target": 15,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "blue plaid shirt",
+      "source": 3,
+      "target": 38,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "grey knee socks",
+      "source": 3,
+      "target": 39,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "leggings",
+      "source": 3,
+      "target": 37,
       "value": 1
     },
     {
-      "source": "blue plaid shirt",
-      "target": "grey knee socks",
+      "source": 38,
+      "target": 39,
       "value": 1
     },
     {
-      "source": "blue plaid shirt",
-      "target": "leggings",
+      "source": 38,
+      "target": 37,
       "value": 1
     },
     {
-      "source": "blue plaid shirt",
-      "target": "striped sweater",
+      "source": 38,
+      "target": 11,
       "value": 1
     },
     {
-      "source": "grey knee socks",
-      "target": "leggings",
+      "source": 39,
+      "target": 37,
       "value": 1
     },
     {
-      "source": "grey knee socks",
-      "target": "striped sweater",
+      "source": 39,
+      "target": 11,
       "value": 1
     },
     {
-      "source": "leggings",
-      "target": "striped sweater",
+      "source": 37,
+      "target": 11,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "maroon knee socks",
+      "source": 3,
+      "target": 41,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "soft blue button down",
+      "source": 3,
+      "target": 40,
       "value": 1
     },
     {
-      "source": "light skinny jeans",
-      "target": "maroon knee socks",
+      "source": 8,
+      "target": 41,
       "value": 1
     },
     {
-      "source": "light skinny jeans",
-      "target": "maroon sweater",
+      "source": 8,
+      "target": 2,
       "value": 1
     },
     {
-      "source": "light skinny jeans",
-      "target": "soft blue button down",
+      "source": 8,
+      "target": 40,
       "value": 1
     },
     {
-      "source": "maroon knee socks",
-      "target": "maroon sweater",
+      "source": 41,
+      "target": 2,
       "value": 1
     },
     {
-      "source": "maroon knee socks",
-      "target": "soft blue button down",
+      "source": 41,
+      "target": 40,
       "value": 1
     },
     {
-      "source": "maroon sweater",
-      "target": "soft blue button down",
+      "source": 2,
+      "target": 40,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "grey crop top",
+      "source": 3,
+      "target": 42,
       "value": 1
     },
     {
-      "source": "black ripped jeans",
-      "target": "grey crop top",
+      "source": 27,
+      "target": 42,
       "value": 1
     },
     {
-      "source": "black ripped jeans",
-      "target": "light grey bombas",
+      "source": 27,
+      "target": 19,
       "value": 1
     },
     {
-      "source": "black ripped jeans",
-      "target": "striped sweater",
+      "source": 27,
+      "target": 11,
       "value": 1
     },
     {
-      "source": "grey crop top",
-      "target": "light grey bombas",
+      "source": 42,
+      "target": 19,
       "value": 1
     },
     {
-      "source": "grey crop top",
-      "target": "striped sweater",
+      "source": 42,
+      "target": 11,
       "value": 1
     },
     {
-      "source": "light grey bombas",
-      "target": "striped sweater",
+      "source": 19,
+      "target": 11,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "light grey striped bombas",
+      "source": 3,
+      "target": 44,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "tribal crop top",
+      "source": 3,
+      "target": 43,
       "value": 1
     },
     {
-      "source": "black ripped jeans",
-      "target": "light grey striped bombas",
+      "source": 27,
+      "target": 44,
       "value": 1
     },
     {
-      "source": "black ripped jeans",
-      "target": "tribal crop top",
+      "source": 27,
+      "target": 43,
       "value": 1
     },
     {
-      "source": "light grey striped bombas",
-      "target": "tribal crop top",
+      "source": 44,
+      "target": 43,
       "value": 1
     },
     {
-      "source": "black boots",
-      "target": "navy blue romper",
+      "source": 3,
+      "target": 45,
       "value": 1
     },
     {
-      "source": "brown bombas",
-      "target": "grey cable knit sweater",
+      "source": 28,
+      "target": 17,
       "value": 2
     },
     {
-      "source": "brown bombas",
-      "target": "navy blue romper",
+      "source": 28,
+      "target": 45,
       "value": 1
     },
     {
-      "source": "grey cable knit sweater",
-      "target": "navy blue romper",
+      "source": 17,
+      "target": 45,
       "value": 1
     },
     {
-      "source": "black corduroys",
-      "target": "black lace tank top",
+      "source": 0,
+      "target": 18,
       "value": 1
     },
     {
-      "source": "black corduroys",
-      "target": "brown bombas",
+      "source": 0,
+      "target": 28,
       "value": 1
     },
     {
-      "source": "black corduroys",
-      "target": "grey cable knit sweater",
+      "source": 0,
+      "target": 17,
       "value": 1
     },
     {
-      "source": "black lace tank top",
-      "target": "brown bombas",
+      "source": 18,
+      "target": 28,
       "value": 1
     }
   ]
