@@ -27,7 +27,7 @@ for i, n in enumerate(counts):
     node = {
         "name": n,
         "value": counts[n],
-        "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/{name}.png".format(name=n.replace(" ", "_"))
+        "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/{name}.png".format(name=n.replace(" ", "_"))
     }
     nodes.append(node)
     node_dict[n] = i
