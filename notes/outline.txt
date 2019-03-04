@@ -2,9 +2,24 @@
 I like clothing and spreadsheets. So I started keeping track of my clothes in a spreadsheet.
 
 02 ---
-This is every item of clothing I've worn since January 19th. (Mostly. I don't keep track of athletic outfits, pajamas, or underwear.)
+This is every item of clothing I've worn since January 19th. (Mostly. I don't keep track of athletic outfits, pajamas, socks, or underwear.)
 
-*Circular photographs of each item of clothing I've worn, in rows. Hovering over the circle tells the item (eg, "Maroon Sweater") and the number of times it's been worn.*
+*Circular photographs of each item of clothing I've worn, in rows, in a random order. Hovering over the circle tells the item (eg, "Maroon Sweater") and the number of times it's been worn.*
+
+03 ---
+We can sort these by the type of garment
+
+*Circles zoom into clusters, based on the type of garment*
+
+04 ---
+Or color
+
+*Circles zoom into clusters, based on color*
+
+05 ---
+Or the number of times it's been worn
+
+*Circles zoom into clusters that are "buckets" of frequency, eg [1, 6); [6, 10); etc.*
 
 03 ---
 I've worn some things more than others. I'll make the clothes that I've worn more, bigger, so that you can see them more clearly.
