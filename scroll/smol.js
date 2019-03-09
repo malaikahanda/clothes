@@ -9,7 +9,7 @@ var height = 480;
 //     console.log(data.nodes)
 // });
 
-var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/scroll/emplyees.json";
+var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/scroll/g.json";
 d3.json(url, function(error, data) {
     console.log(data[0]);
 });
