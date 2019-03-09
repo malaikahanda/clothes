@@ -9,7 +9,7 @@ import json
 import os
 
 # read in the file
-with open("data_big.csv") as f:
+with open("data.csv") as f:
     data = f.read()
     rows = data.split("\n")
 
