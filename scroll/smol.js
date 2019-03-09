@@ -9,7 +9,7 @@ var height = 480;
 //     console.log(data.nodes)
 // });
 
-var url = "/smol.json";
+var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/scroll/smol.json";
 d3.json(url, function(error, data) {
-    console.log(data)
+    console.log(typeof(data));
 });
