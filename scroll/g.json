@@ -1,0 +1,23 @@
+[
+  {
+    "name": "flannel",
+    "id": 0,
+    "type": "shirt",
+    "n_worn": 12,
+    "color": "blue"
+  },
+  {
+    "name": "circle skirt",
+    "id": 1,
+    "type": "skirt",
+    "n_worn": 20,
+    "color": "blue"
+  },
+  {
+    "name": "lace shirt",
+    "id": 2,
+    "type": "shirt",
+    "n_worn": 3,
+    "color": "red"
+  }
+]
