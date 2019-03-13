@@ -71,3 +71,10 @@ Here's the whole closet.
 Some attempt at a conclusion...
 
 *Big graphic. Checkboxes for weighting nodes, and weighting edges. Calendar where you can pick a date.*
+
+14 ---
+Acknowledgements:
+- http://muyueh.com/greenhoney/ for the idea about circles zooming into place
+- @womtang and @heyusoft for memes and moral support via twitter
+- http://bl.ocks.org/sathomas/11550728 this tutorial for holding my hand while i learned force
+- @carohermy for inspiring this idea https://twitter.com/carohermy/status/1086832643000414208
