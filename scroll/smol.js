@@ -3,8 +3,26 @@
 var width = 640; 
 var height = 480;
 
+// for each of the sortbys, we want a list of nodes, and an empty list of links
+// create a function that will plot a list of graphs
+// create a function that will take a node list and group it by element
+// eg...
+
+// def sort_by(nodes, field):
+//   graphs = {}
+//   for node in nodes:
+//     this_field = node[field]
+//     if (field) in graphs:
+//       graphs[field].append(node)
+//     else:
+//       graphs[field] = [node]
+//   return list(graphs.values()) ??? do i need a label idk
+
+//
+
+
 // read in a graph
-var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/scroll/smol_nodes.json";
+var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/scroll/nodes.json";
 d3.json(url, function(error, nodes) {
 
     // i should figure out a better format for this json
@@ -28,24 +46,27 @@ d3.json(url, function(error, nodes) {
     // and set its properties
     var force = d3.layout.force()
         .size([width, height])
-        .nodes(nodes)
-        .links(links);
+        .nodes(nodes1)
+        .links(links1);
 
     // the nodes and link information exists in memory
     // but we cant see it yet
     // we need to map all that information to images
 
-    // we map each node to a circle
-    var node = svg.selectAll('.node')
-        .data(nodes)
-        .enter().append('circle')
-        .attr('class', 'node');
-
-    // and we map the links to lines
+    // map the links to lines
     var link = svg.selectAll('.link')
-        .data(links)
+        .data(links1)
         .enter().append('line')
         .attr('class', 'link');
+
+    // map the nodes to circles
+    var node = svg.selectAll(".node")
+        .data(nodes1)
+        .enter()
+        .append("g")
+        .attr("class", "node");
+
+    // and map the nodes to images
 
     // when force is done with its calculations
     // (ie, its 'end'-ed)
@@ -59,10 +80,14 @@ d3.json(url, function(error, nodes) {
         console.log(node);
 
         // where should the nodes be?
-        node
-            .attr('r', function(d) { return d.n_worn; })
-            .attr('cx', function(d) { return d.x; })
-            .attr('cy', function(d) { return d.y; });
+        node.append("image")
+            .attr("xlink:href", function(d) { return d.img; })
+            .attr("x", function(d) { return d.x; })
+            .attr("y", function(d) { return d.y; })
+            // .attr("width", function(d) { return d.n_worn * 3; })
+            // .attr("height", function(d) { return d.n_worn * 3; });
+            .attr("width", 30)
+            .attr("height", 30);
 
         // where should the links be?
         link

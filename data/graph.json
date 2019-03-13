@@ -1,401 +1,365 @@
-{
-  "nodes": [
+[
+  [
     {
       "name": "black corduroys",
-      "value": 4,
+      "id": 0,
+      "n_worn": 4,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_corduroys.png"
     },
     {
       "name": "r&g t shirt",
-      "value": 2,
+      "id": 1,
+      "n_worn": 2,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/r&g_t_shirt.png"
     },
     {
       "name": "maroon sweater",
-      "value": 4,
+      "id": 2,
+      "n_worn": 4,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/maroon_sweater.png"
     },
     {
       "name": "black boots",
-      "value": 24,
+      "id": 3,
+      "n_worn": 24,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_boots.png"
     },
     {
       "name": "black tights",
-      "value": 10,
+      "id": 4,
+      "n_worn": 18,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_tights.png"
     },
     {
       "name": "purple lace dress",
-      "value": 1,
+      "id": 5,
+      "n_worn": 1,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/purple_lace_dress.png"
     },
     {
       "name": "light skinny jeans",
-      "value": 4,
+      "id": 6,
+      "n_worn": 4,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/light_skinny_jeans.png"
     },
     {
       "name": "flower crop top",
-      "value": 1,
+      "id": 7,
+      "n_worn": 1,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/flower_crop_top.png"
     },
     {
       "name": "alpaca sweater",
-      "value": 2,
+      "id": 8,
+      "n_worn": 3,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/alpaca_sweater.png"
     },
     {
+      "name": "grey striped sweater",
+      "id": 9,
+      "n_worn": 5,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_striped_sweater.png"
+    },
+    {
       "name": "blue flowered tank top",
-      "value": 1,
+      "id": 10,
+      "n_worn": 1,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/blue_flowered_tank_top.png"
     },
     {
+      "name": "black flowered dress",
+      "id": 11,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_flowered_dress.png"
+    },
+    {
       "name": "dark skinny jeans",
-      "value": 4,
+      "id": 12,
+      "n_worn": 9,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/dark_skinny_jeans.png"
     },
     {
       "name": "grey cable knit sweater",
-      "value": 4,
+      "id": 13,
+      "n_worn": 6,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_cable_knit_sweater.png"
     },
     {
+      "name": "black lace tank top",
+      "id": 14,
+      "n_worn": 4,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_lace_tank_top.png"
+    },
+    {
+      "name": "red lace shirt",
+      "id": 15,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_lace_shirt.png"
+    },
+    {
+      "name": "red lace up dress",
+      "id": 16,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_lace_up_dress.png"
+    },
+    {
+      "name": "cream dress",
+      "id": 17,
+      "n_worn": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/cream_dress.png"
+    },
+    {
+      "name": "pink bralette",
+      "id": 18,
+      "n_worn": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/pink_bralette.png"
+    },
+    {
+      "name": "flower crown",
+      "id": 19,
+      "n_worn": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/flower_crown.png"
+    },
+    {
+      "name": "black ripped jeans",
+      "id": 20,
+      "n_worn": 4,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_ripped_jeans.png"
+    },
+    {
+      "name": "blue plaid skirt",
+      "id": 21,
+      "n_worn": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/blue_plaid_skirt.png"
+    },
+    {
+      "name": "black lace shirt",
+      "id": 22,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_lace_shirt.png"
+    },
+    {
+      "name": "black bralette",
+      "id": 23,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_bralette.png"
+    },
+    {
+      "name": "tribal tank top",
+      "id": 24,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/tribal_tank_top.png"
+    },
+    {
+      "name": "grey cardigan",
+      "id": 25,
+      "n_worn": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_cardigan.png"
+    },
+    {
       "name": "leggings",
-      "value": 2,
+      "id": 26,
+      "n_worn": 2,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/leggings.png"
     },
     {
       "name": "soft blue button down",
-      "value": 2,
+      "id": 27,
+      "n_worn": 3,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/soft_blue_button_down.png"
     },
     {
+      "name": "grey crop top",
+      "id": 28,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_crop_top.png"
+    },
+    {
+      "name": "tribal crop top",
+      "id": 29,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/tribal_crop_top.png"
+    },
+    {
+      "name": "navy blue romper",
+      "id": 30,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/navy_blue_romper.png"
+    },
+    {
+      "name": "embroidered dress",
+      "id": 31,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/embroidered_dress.png"
+    },
+    {
       "name": "striped blue sweater",
-      "value": 1,
+      "id": 32,
+      "n_worn": 2,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/striped_blue_sweater.png"
     },
     {
       "name": "black circle skirt",
-      "value": 2,
+      "id": 33,
+      "n_worn": 3,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_circle_skirt.png"
     },
     {
       "name": "new black boots",
-      "value": 8,
+      "id": 34,
+      "n_worn": 23,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/new_black_boots.png"
     },
     {
+      "name": "polka dot button up",
+      "id": 35,
+      "n_worn": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/polka_dot_button_up.png"
+    },
+    {
+      "name": "black button skirt",
+      "id": 36,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_button_skirt.png"
+    },
+    {
       "name": "red tank top",
-      "value": 2,
+      "id": 37,
+      "n_worn": 2,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_tank_top.png"
     },
     {
       "name": "red plaid flannel",
-      "value": 2,
+      "id": 38,
+      "n_worn": 3,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_plaid_flannel.png"
     },
     {
+      "name": "adidas joggers",
+      "id": 39,
+      "n_worn": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/adidas_joggers.png"
+    },
+    {
       "name": "sneakers",
-      "value": 1,
+      "id": 40,
+      "n_worn": 1,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/sneakers.png"
     },
     {
+      "name": "black bra",
+      "id": 41,
+      "n_worn": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_bra.png"
+    },
+    {
+      "name": "long sleeve lace crop top",
+      "id": 42,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/long_sleeve_lace_crop_top.png"
+    },
+    {
       "name": "black jeans",
-      "value": 2,
+      "id": 43,
+      "n_worn": 3,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_jeans.png"
     },
     {
+      "name": "purple triangle dress",
+      "id": 44,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/purple_triangle_dress.png"
+    },
+    {
+      "name": "black vans",
+      "id": 45,
+      "n_worn": 3,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_vans.png"
+    },
+    {
       "name": "pink tee",
-      "value": 2,
+      "id": 46,
+      "n_worn": 3,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/pink_tee.png"
     },
     {
       "name": "thirsty thursday tank",
-      "value": 1,
+      "id": 47,
+      "n_worn": 1,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/thirsty_thursday_tank.png"
     },
     {
       "name": "light flared jeans",
-      "value": 1,
+      "id": 48,
+      "n_worn": 1,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/light_flared_jeans.png"
+    },
+    {
+      "name": "silver tank top",
+      "id": 49,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/silver_tank_top.png"
+    },
+    {
+      "name": "sparkly grey dress",
+      "id": 50,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/sparkly_grey_dress.png"
+    },
+    {
+      "name": "rosie the riveter tank top",
+      "id": 51,
+      "n_worn": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/rosie_the_riveter_tank_top.png"
+    },
+    {
+      "name": "see through dress",
+      "id": 52,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/see_through_dress.png"
+    },
+    {
+      "name": "navy circle skirt",
+      "id": 53,
+      "n_worn": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/navy_circle_skirt.png"
+    },
+    {
+      "name": "white dress",
+      "id": 54,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/white_dress.png"
+    },
+    {
+      "name": "hawaiian shirt",
+      "id": 55,
+      "n_worn": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/hawaiian_shirt.png"
+    },
+    {
+      "name": "gold vans",
+      "id": 56,
+      "n_worn": 2,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/gold_vans.png"
+    },
+    {
+      "name": "red button dress",
+      "id": 57,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_button_dress.png"
+    },
+    {
+      "name": "red tee",
+      "id": 58,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_tee.png"
+    },
+    {
+      "name": "black tee",
+      "id": 59,
+      "n_worn": 1,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_tee.png"
     }
   ],
-  "links": [
-    {
-      "source": 3,
-      "target": 0,
-      "value": 3
-    },
-    {
-      "source": 3,
-      "target": 2,
-      "value": 3
-    },
-    {
-      "source": 3,
-      "target": 1,
-      "value": 2
-    },
-    {
-      "source": 0,
-      "target": 2,
-      "value": 2
-    },
-    {
-      "source": 0,
-      "target": 1,
-      "value": 1
-    },
-    {
-      "source": 2,
-      "target": 1,
-      "value": 2
-    },
-    {
-      "source": 3,
-      "target": 4,
-      "value": 6
-    },
-    {
-      "source": 3,
-      "target": 5,
-      "value": 1
-    },
-    {
-      "source": 4,
-      "target": 5,
-      "value": 1
-    },
-    {
-      "source": 8,
-      "target": 3,
-      "value": 2
-    },
-    {
-      "source": 8,
-      "target": 7,
-      "value": 1
-    },
-    {
-      "source": 8,
-      "target": 6,
-      "value": 1
-    },
-    {
-      "source": 3,
-      "target": 7,
-      "value": 1
-    },
-    {
-      "source": 3,
-      "target": 6,
-      "value": 3
-    },
-    {
-      "source": 7,
-      "target": 6,
-      "value": 1
-    },
-    {
-      "source": 3,
-      "target": 10,
-      "value": 1
-    },
-    {
-      "source": 0,
-      "target": 10,
-      "value": 1
-    },
-    {
-      "source": 3,
-      "target": 12,
-      "value": 4
-    },
-    {
-      "source": 3,
-      "target": 13,
-      "value": 3
-    },
-    {
-      "source": 12,
-      "target": 13,
-      "value": 1
-    },
-    {
-      "source": 3,
-      "target": 28,
-      "value": 2
-    },
-    {
-      "source": 3,
-      "target": 30,
-      "value": 1
-    },
-    {
-      "source": 6,
-      "target": 2,
-      "value": 2
-    },
-    {
-      "source": 6,
-      "target": 30,
-      "value": 1
-    },
-    {
-      "source": 2,
-      "target": 30,
-      "value": 1
-    },
-    {
-      "source": 0,
-      "target": 13,
-      "value": 1
-    },
-    {
-      "source": 36,
-      "target": 37,
-      "value": 2
-    },
-    {
-      "source": 36,
-      "target": 35,
-      "value": 1
-    },
-    {
-      "source": 37,
-      "target": 35,
-      "value": 1
-    },
-    {
-      "source": 6,
-      "target": 1,
-      "value": 1
-    },
-    {
-      "source": 36,
-      "target": 4,
-      "value": 1
-    },
-    {
-      "source": 36,
-      "target": 41,
-      "value": 1
-    },
-    {
-      "source": 36,
-      "target": 40,
-      "value": 1
-    },
-    {
-      "source": 4,
-      "target": 37,
-      "value": 4
-    },
-    {
-      "source": 4,
-      "target": 41,
-      "value": 1
-    },
-    {
-      "source": 4,
-      "target": 40,
-      "value": 1
-    },
-    {
-      "source": 37,
-      "target": 41,
-      "value": 1
-    },
-    {
-      "source": 37,
-      "target": 40,
-      "value": 1
-    },
-    {
-      "source": 41,
-      "target": 40,
-      "value": 1
-    },
-    {
-      "source": 41,
-      "target": 43,
-      "value": 1
-    },
-    {
-      "source": 46,
-      "target": 37,
-      "value": 1
-    },
-    {
-      "source": 46,
-      "target": 30,
-      "value": 1
-    },
-    {
-      "source": 37,
-      "target": 30,
-      "value": 1
-    },
-    {
-      "source": 3,
-      "target": 40,
-      "value": 1
-    },
-    {
-      "source": 12,
-      "target": 40,
-      "value": 1
-    },
-    {
-      "source": 8,
-      "target": 28,
-      "value": 1
-    },
-    {
-      "source": 8,
-      "target": 49,
-      "value": 1
-    },
-    {
-      "source": 3,
-      "target": 49,
-      "value": 1
-    },
-    {
-      "source": 28,
-      "target": 49,
-      "value": 1
-    },
-    {
-      "source": 46,
-      "target": 13,
-      "value": 1
-    },
-    {
-      "source": 46,
-      "target": 50,
-      "value": 1
-    },
-    {
-      "source": 13,
-      "target": 50,
-      "value": 1
-    },
-    {
-      "source": 6,
-      "target": 37,
-      "value": 1
-    },
-    {
-      "source": 6,
-      "target": 49,
-      "value": 1
-    },
-    {
-      "source": 37,
-      "target": 49,
-      "value": 1
-    }
-  ]
-}
+  []
+]

@@ -1,7 +1,6 @@
-.node {
-    fill: #ccc;
-    stroke: #fff;
-    stroke-width: 1px;
+.node text {
+    pointer-events: none;
+    font: 10px sans-serif;
 }
 
 .link {

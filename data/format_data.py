@@ -9,7 +9,7 @@ import json
 import os
 
 # read in the file
-with open("data.csv") as f:
+with open("days.csv") as f:
     data = f.read()
     rows = data.split("\n")
 
@@ -31,37 +31,40 @@ counts = Counter(all_items)
 
 node_dict = {}
 nodes = []
-for i, n in enumerate(counts):
+i = 0
+for n in counts:
     image_name = n.replace(" ", "_") + ".png"
     if (image_name not in images):
         continue
     node = {
         "name": n,
-        "value": counts[n],
+        "id": i,
+        "n_worn": counts[n],
         "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/{}".format(image_name)
     }
     nodes.append(node)
     node_dict[n] = i
+    i += 1
 
-# edges
+# # edges
 
-all_pairs = []
-for row in rows:
-    items = sorted([i for i in row.split(",")[1 :] if (i != "")])
-    items = [i for i in items if i in node_dict]
-    pairs = itertools.combinations(items, 2)
-    all_pairs += pairs
+# all_pairs = []
+# for row in rows:
+#     items = sorted([i for i in row.split(",")[1 :] if (i != "")])
+#     items = [i for i in items if i in node_dict]
+#     pairs = itertools.combinations(items, 2)
+#     all_pairs += pairs
 
-counts = Counter(all_pairs)
+# counts = Counter(all_pairs)
 
-edges = []
-for (src, tgt) in counts:
-    edge = {
-        "source": node_dict[src],
-        "target": node_dict[tgt],
-        "value": counts[(src, tgt)]
-    }
-    edges.append(edge)
+# edges = []
+# for (src, tgt) in counts:
+#     edge = {
+#         "source": node_dict[src],
+#         "target": node_dict[tgt],
+#         "value": counts[(src, tgt)]
+#     }
+#     edges.append(edge)
 
 ################################################################################
 # DATES
@@ -83,8 +86,10 @@ for (src, tgt) in counts:
 
 graph = {
     "nodes": nodes,
-    "links": edges
+    "links": [] #edges
 }
+
+graph = [nodes, []]
 with open("graph.json", "w") as f:
     json.dump(graph, f)
 
