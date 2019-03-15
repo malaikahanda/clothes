@@ -83,8 +83,8 @@ d3.json(url, function(error, nodes) {
             .attr("xlink:href", function(d) { return d.img; })
             .attr("x", function(d) { return d.x; })
             .attr("y", function(d) { return d.y; })
-            .attr("width", 30)
-            .attr("height", 30);
+            .attr("width", 40)
+            .attr("height", 40);
             // .attr("width", function(d) { return Math.round(20 + ((d.n_worn / 24) * 50)); })
             // .attr("height", function(d) { return Math.round(20 + ((d.n_worn / 24) * 50)); });
 
