@@ -27,12 +27,14 @@ d3.json(url, function(error, nodes) {
 
     // i should figure out a better format for this json
     // jesus fuckin christ
-    var nodes1 = nodes[0];
-    var nodes2 = nodes[1];
+    //var nodes1 = nodes[0];
+    //var nodes2 = nodes[1];
+    // let's see what we've read in
+    console.log(nodes);
     
     // no edges in our graph!
-    var links1 = [];
-    var links2 = [];
+    var links = [];
+    //var links2 = [];
 
     // in the body of our html file,
     // add a svg container
@@ -46,8 +48,8 @@ d3.json(url, function(error, nodes) {
     // and set its properties
     var force = d3.layout.force()
         .size([width, height])
-        .nodes(nodes1)
-        .links(links1);
+        .nodes(nodes)
+        .links(links);
 
     // the nodes and link information exists in memory
     // but we cant see it yet
@@ -55,13 +57,13 @@ d3.json(url, function(error, nodes) {
 
     // map the links to lines
     var link = svg.selectAll('.link')
-        .data(links1)
+        .data(links)
         .enter().append('line')
         .attr('class', 'link');
 
     // map the nodes to circles
     var node = svg.selectAll(".node")
-        .data(nodes1)
+        .data(nodes)
         .enter()
         .append("g")
         .attr("class", "node");
@@ -76,18 +78,15 @@ d3.json(url, function(error, nodes) {
     // in order to position our display
     force.on('end', function() {
 
-        // let's see what we've calculated
-        console.log(node);
-
         // where should the nodes be?
         node.append("image")
             .attr("xlink:href", function(d) { return d.img; })
             .attr("x", function(d) { return d.x; })
             .attr("y", function(d) { return d.y; })
-            // .attr("width", function(d) { return d.n_worn * 3; })
-            // .attr("height", function(d) { return d.n_worn * 3; });
-            .attr("width", function(d) { return Math.round(20 + ((d.n_worn / 24) * 50)); })
-            .attr("height", function(d) { return Math.round(20 + ((d.n_worn / 24) * 50)); });
+            .attr("width", 30)
+            .attr("height", 30);
+            // .attr("width", function(d) { return Math.round(20 + ((d.n_worn / 24) * 50)); })
+            // .attr("height", function(d) { return Math.round(20 + ((d.n_worn / 24) * 50)); });
 
         // where should the links be?
         link
