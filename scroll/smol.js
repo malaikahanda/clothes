@@ -22,7 +22,7 @@ var height = 480;
 
 
 // read in a graph
-var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/scroll/nodes.json";
+var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/data/graph.json";
 d3.json(url, function(error, nodes) {
 
     // i should figure out a better format for this json
@@ -86,8 +86,8 @@ d3.json(url, function(error, nodes) {
             .attr("y", function(d) { return d.y; })
             // .attr("width", function(d) { return d.n_worn * 3; })
             // .attr("height", function(d) { return d.n_worn * 3; });
-            .attr("width", 30)
-            .attr("height", 30);
+            .attr("width", function(d) { return Math.round(20 + ((d.n_worn / 24) * 50)); })
+            .attr("height", function(d) { return Math.round(20 + ((d.n_worn / 24) * 50)); });
 
         // where should the links be?
         link
