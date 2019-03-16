@@ -1,498 +1,502 @@
 [
-  {
-    "item": "black corduroys",
-    "type": "pants",
-    "color": "black",
-    "pattern": "solid",
-    "n_worn": 4.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_corduroys.png"
-  },
-  {
-    "item": "black tights",
-    "type": "pants",
-    "color": "black",
-    "pattern": "solid",
-    "n_worn": 19.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_tights.png"
-  },
-  {
-    "item": "light skinny jeans",
-    "type": "pants",
-    "color": "blue",
-    "pattern": "denim",
-    "n_worn": 4.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/light_skinny_jeans.png"
-  },
-  {
-    "item": "dark skinny jeans",
-    "type": "pants",
-    "color": "blue",
-    "pattern": "denim",
-    "n_worn": 9.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/dark_skinny_jeans.png"
-  },
-  {
-    "item": "cream dress",
-    "type": "dress",
-    "color": "white",
-    "pattern": "solid",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/cream_dress.png"
-  },
-  {
-    "item": "black ripped jeans",
-    "type": "pants",
-    "color": "black",
-    "pattern": "denim",
-    "n_worn": 4.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_ripped_jeans.png"
-  },
-  {
-    "item": "blue plaid skirt",
-    "type": "skirt",
-    "color": "blue",
-    "pattern": "plaid",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/blue_plaid_skirt.png"
-  },
-  {
-    "item": "tribal tank top",
-    "type": "top",
-    "color": "blue",
-    "pattern": "tribal",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/tribal_tank_top.png"
-  },
-  {
-    "item": "black triangle dress",
-    "type": "dress",
-    "color": "black",
-    "pattern": "geometric",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_triangle_dress.png"
-  },
-  {
-    "item": "leggings",
-    "type": "pants",
-    "color": "black",
-    "pattern": "solid",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/leggings.png"
-  },
-  {
-    "item": "navy blue romper",
-    "type": "dress",
-    "color": "blue",
-    "pattern": "floral",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/navy_blue_romper.png"
-  },
-  {
-    "item": "embroidered dress",
-    "type": "dress",
-    "color": "blue",
-    "pattern": "floral",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/embroidered_dress.png"
-  },
-  {
-    "item": "striped blue sweater",
-    "type": "sweater",
-    "color": "blue",
-    "pattern": "stripes",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/striped_blue_sweater.png"
-  },
-  {
-    "item": "polka dot button up",
-    "type": "top",
-    "color": "blue",
-    "pattern": "polka dots",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/polka_dot_button_up.png"
-  },
-  {
-    "item": "adidas joggers",
-    "type": "pants",
-    "color": "black",
-    "pattern": "solid",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/adidas_joggers.png"
-  },
-  {
-    "item": "black jeans",
-    "type": "pants",
-    "color": "black",
-    "pattern": "denim",
-    "n_worn": 4.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_jeans.png"
-  },
-  {
-    "item": "light flared jeans",
-    "type": "pants",
-    "color": "blue",
-    "pattern": "denim",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/light_flared_jeans.png"
-  },
-  {
-    "item": "sparkly grey dress",
-    "type": "dress",
-    "color": "grey",
-    "pattern": "other",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/sparkly_grey_dress.png"
-  },
-  {
-    "item": "hawaiian shirt",
-    "type": "top",
-    "color": "blue",
-    "pattern": "other",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/hawaiian_shirt.png"
-  },
-  {
-    "item": "soft blue button down",
-    "type": "top",
-    "color": "blue",
-    "pattern": "polka dots",
-    "n_worn": 3.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/soft_blue_button_down.png"
-  },
-  {
-    "item": "r&g t shirt",
-    "type": "top",
-    "color": "multi",
-    "pattern": "other",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/r&g_t_shirt.png"
-  },
-  {
-    "item": "purple lace dress",
-    "type": "dress",
-    "color": "purple",
-    "pattern": "lace",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/purple_lace_dress.png"
-  },
-  {
-    "item": "flower crop top",
-    "type": "top",
-    "color": "red",
-    "pattern": "floral",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/flower_crop_top.png"
-  },
-  {
-    "item": "grey striped sweater",
-    "type": "sweater",
-    "color": "grey",
-    "pattern": "stripes",
-    "n_worn": 5.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_striped_sweater.png"
-  },
-  {
-    "item": "black flowered dress",
-    "type": "dress",
-    "color": "black",
-    "pattern": "floral",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_flowered_dress.png"
-  },
-  {
-    "item": "grey cable knit sweater",
-    "type": "sweater",
-    "color": "grey",
-    "pattern": "other",
-    "n_worn": 6.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_cable_knit_sweater.png"
-  },
-  {
-    "item": "red lace shirt",
-    "type": "top",
-    "color": "red",
-    "pattern": "lace",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_lace_shirt.png"
-  },
-  {
-    "item": "red lace up dress",
-    "type": "dress",
-    "color": "red",
-    "pattern": "solid",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_lace_up_dress.png"
-  },
-  {
-    "item": "grey flowered sweater",
-    "type": "sweater",
-    "color": "grey",
-    "pattern": "floral",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_flowered_sweater.png"
-  },
-  {
-    "item": "blue plaid shirt",
-    "type": "top",
-    "color": "blue",
-    "pattern": "plaid",
-    "n_worn": null,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/blue_plaid_shirt.png"
-  },
-  {
-    "item": "grey crop top",
-    "type": "top",
-    "color": "grey",
-    "pattern": "solid",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_crop_top.png"
-  },
-  {
-    "item": "tribal crop top",
-    "type": "top",
-    "color": "grey",
-    "pattern": "tribal",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/tribal_crop_top.png"
-  },
-  {
-    "item": "black boots",
-    "type": "shoes",
-    "color": "black",
-    "pattern": "solid",
-    "n_worn": 24.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_boots.png"
-  },
-  {
-    "item": "black circle skirt",
-    "type": "skirt",
-    "color": "black",
-    "pattern": "solid",
-    "n_worn": 3.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_circle_skirt.png"
-  },
-  {
-    "item": "black button skirt",
-    "type": "skirt",
-    "color": "black",
-    "pattern": "solid",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_button_skirt.png"
-  },
-  {
-    "item": "red plaid flannel",
-    "type": "top",
-    "color": "red",
-    "pattern": "plaid",
-    "n_worn": 4.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_plaid_flannel.png"
-  },
-  {
-    "item": "long sleeve lace crop top",
-    "type": "top",
-    "color": "white",
-    "pattern": "lace",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/long_sleeve_lace_crop_top.png"
-  },
-  {
-    "item": "red tank top",
-    "type": "top",
-    "color": "red",
-    "pattern": "lace",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_tank_top.png"
-  },
-  {
-    "item": "purple triangle dress",
-    "type": "dress",
-    "color": "purple",
-    "pattern": "geometric",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/purple_triangle_dress.png"
-  },
-  {
-    "item": "maroon sweater",
-    "type": "sweater",
-    "color": "red",
-    "pattern": "stripes",
-    "n_worn": 4.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/maroon_sweater.png"
-  },
-  {
-    "item": "alpaca sweater",
-    "type": "sweater",
-    "color": "grey",
-    "pattern": "other",
-    "n_worn": 3.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/alpaca_sweater.png"
-  },
-  {
-    "item": "pink tee",
-    "type": "top",
-    "color": "pink",
-    "pattern": "solid",
-    "n_worn": 3.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/pink_tee.png"
-  },
-  {
-    "item": "silver tank top",
-    "type": "top",
-    "color": "grey",
-    "pattern": "lace",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/silver_tank_top.png"
-  },
-  {
-    "item": "flower crown",
-    "type": "other",
-    "color": "pink",
-    "pattern": "floral",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/flower_crown.png"
-  },
-  {
-    "item": "rosie the riveter tank top",
-    "type": "top",
-    "color": "black",
-    "pattern": "other",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/rosie_the_riveter_tank_top.png"
-  },
-  {
-    "item": "see through dress",
-    "type": "dress",
-    "color": "blue",
-    "pattern": "polka dots",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/see_through_dress.png"
-  },
-  {
-    "item": "navy circle skirt",
-    "type": "skirt",
-    "color": "blue",
-    "pattern": "solid",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/navy_circle_skirt.png"
-  },
-  {
-    "item": "white dress",
-    "type": "dress",
-    "color": "white",
-    "pattern": "solid",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/white_dress.png"
-  },
-  {
-    "item": "blue flowered tank top",
-    "type": "top",
-    "color": "blue",
-    "pattern": "floral",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/blue_flowered_tank_top.png"
-  },
-  {
-    "item": "black lace tank top",
-    "type": "top",
-    "color": "black",
-    "pattern": "lace",
-    "n_worn": 4.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_lace_tank_top.png"
-  },
-  {
-    "item": "pink bralette",
-    "type": "other",
-    "color": "pink",
-    "pattern": "lace",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/pink_bralette.png"
-  },
-  {
-    "item": "black lace shirt",
-    "type": "top",
-    "color": "black",
-    "pattern": "lace",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_lace_shirt.png"
-  },
-  {
-    "item": "grey cardigan",
-    "type": "sweater",
-    "color": "grey",
-    "pattern": "solid",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_cardigan.png"
-  },
-  {
-    "item": "new black boots",
-    "type": "shoes",
-    "color": "black",
-    "pattern": "solid",
-    "n_worn": 25.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/new_black_boots.png"
-  },
-  {
-    "item": "sneakers",
-    "type": "shoes",
-    "color": "black",
-    "pattern": "solid",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/sneakers.png"
-  },
-  {
-    "item": "thirsty thursday tank",
-    "type": "top",
-    "color": "black",
-    "pattern": "other",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/thirsty_thursday_tank.png"
-  },
-  {
-    "item": "maroon skirt",
-    "type": "skirt",
-    "color": "red",
-    "pattern": "geometric",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/maroon_skirt.png"
-  },
-  {
-    "item": "black vans",
-    "type": "shoes",
-    "color": "black",
-    "pattern": "solid",
-    "n_worn": 3.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_vans.png"
-  },
-  {
-    "item": "gold vans",
-    "type": "shoes",
-    "color": "black",
-    "pattern": "other",
-    "n_worn": 3.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/gold_vans.png"
-  },
-  {
-    "item": "black bra",
-    "type": "other",
-    "color": "black",
-    "pattern": "lace",
-    "n_worn": 2.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_bra.png"
-  },
-  {
-    "item": "black bralette",
-    "type": "other",
-    "color": "black",
-    "pattern": "lace",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_bralette.png"
-  },
-  {
-    "item": "red button dress",
-    "type": "dress",
-    "color": "red",
-    "pattern": "solid",
-    "n_worn": 1.0,
-    "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_button_dress.png"
-  }
+  [
+    {
+      "item": "flower crop top",
+      "type": "top",
+      "color": "red",
+      "pattern": "floral",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/flower_crop_top.png"
+    },
+    {
+      "item": "red lace shirt",
+      "type": "top",
+      "color": "red",
+      "pattern": "lace",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_lace_shirt.png"
+    },
+    {
+      "item": "red lace up dress",
+      "type": "dress",
+      "color": "red",
+      "pattern": "solid",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_lace_up_dress.png"
+    },
+    {
+      "item": "red plaid flannel",
+      "type": "top",
+      "color": "red",
+      "pattern": "plaid",
+      "n_worn": 4.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_plaid_flannel.png"
+    },
+    {
+      "item": "red tank top",
+      "type": "top",
+      "color": "red",
+      "pattern": "lace",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_tank_top.png"
+    },
+    {
+      "item": "maroon sweater",
+      "type": "sweater",
+      "color": "red",
+      "pattern": "stripes",
+      "n_worn": 4.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/maroon_sweater.png"
+    },
+    {
+      "item": "maroon skirt",
+      "type": "skirt",
+      "color": "red",
+      "pattern": "geometric",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/maroon_skirt.png"
+    },
+    {
+      "item": "red button dress",
+      "type": "dress",
+      "color": "red",
+      "pattern": "solid",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_button_dress.png"
+    }
+  ],
+  [
+    {
+      "item": "black corduroys",
+      "type": "pants",
+      "color": "black",
+      "pattern": "solid",
+      "n_worn": 4.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_corduroys.png"
+    },
+    {
+      "item": "black tights",
+      "type": "pants",
+      "color": "black",
+      "pattern": "solid",
+      "n_worn": 19.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_tights.png"
+    },
+    {
+      "item": "light skinny jeans",
+      "type": "pants",
+      "color": "blue",
+      "pattern": "denim",
+      "n_worn": 4.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/light_skinny_jeans.png"
+    },
+    {
+      "item": "dark skinny jeans",
+      "type": "pants",
+      "color": "blue",
+      "pattern": "denim",
+      "n_worn": 9.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/dark_skinny_jeans.png"
+    },
+    {
+      "item": "cream dress",
+      "type": "dress",
+      "color": "white",
+      "pattern": "solid",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/cream_dress.png"
+    },
+    {
+      "item": "black ripped jeans",
+      "type": "pants",
+      "color": "black",
+      "pattern": "denim",
+      "n_worn": 4.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_ripped_jeans.png"
+    },
+    {
+      "item": "blue plaid skirt",
+      "type": "skirt",
+      "color": "blue",
+      "pattern": "plaid",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/blue_plaid_skirt.png"
+    },
+    {
+      "item": "tribal tank top",
+      "type": "top",
+      "color": "blue",
+      "pattern": "tribal",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/tribal_tank_top.png"
+    },
+    {
+      "item": "black triangle dress",
+      "type": "dress",
+      "color": "black",
+      "pattern": "geometric",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_triangle_dress.png"
+    },
+    {
+      "item": "leggings",
+      "type": "pants",
+      "color": "black",
+      "pattern": "solid",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/leggings.png"
+    },
+    {
+      "item": "navy blue romper",
+      "type": "dress",
+      "color": "blue",
+      "pattern": "floral",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/navy_blue_romper.png"
+    },
+    {
+      "item": "embroidered dress",
+      "type": "dress",
+      "color": "blue",
+      "pattern": "floral",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/embroidered_dress.png"
+    },
+    {
+      "item": "striped blue sweater",
+      "type": "sweater",
+      "color": "blue",
+      "pattern": "stripes",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/striped_blue_sweater.png"
+    },
+    {
+      "item": "polka dot button up",
+      "type": "top",
+      "color": "blue",
+      "pattern": "polka dots",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/polka_dot_button_up.png"
+    },
+    {
+      "item": "adidas joggers",
+      "type": "pants",
+      "color": "black",
+      "pattern": "solid",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/adidas_joggers.png"
+    },
+    {
+      "item": "black jeans",
+      "type": "pants",
+      "color": "black",
+      "pattern": "denim",
+      "n_worn": 4.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_jeans.png"
+    },
+    {
+      "item": "light flared jeans",
+      "type": "pants",
+      "color": "blue",
+      "pattern": "denim",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/light_flared_jeans.png"
+    },
+    {
+      "item": "sparkly grey dress",
+      "type": "dress",
+      "color": "grey",
+      "pattern": "other",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/sparkly_grey_dress.png"
+    },
+    {
+      "item": "hawaiian shirt",
+      "type": "top",
+      "color": "blue",
+      "pattern": "other",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/hawaiian_shirt.png"
+    },
+    {
+      "item": "soft blue button down",
+      "type": "top",
+      "color": "blue",
+      "pattern": "polka dots",
+      "n_worn": 3.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/soft_blue_button_down.png"
+    },
+    {
+      "item": "r&g t shirt",
+      "type": "top",
+      "color": "multi",
+      "pattern": "other",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/r&g_t_shirt.png"
+    },
+    {
+      "item": "purple lace dress",
+      "type": "dress",
+      "color": "purple",
+      "pattern": "lace",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/purple_lace_dress.png"
+    },
+    {
+      "item": "grey striped sweater",
+      "type": "sweater",
+      "color": "grey",
+      "pattern": "stripes",
+      "n_worn": 5.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_striped_sweater.png"
+    },
+    {
+      "item": "black flowered dress",
+      "type": "dress",
+      "color": "black",
+      "pattern": "floral",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_flowered_dress.png"
+    },
+    {
+      "item": "grey cable knit sweater",
+      "type": "sweater",
+      "color": "grey",
+      "pattern": "other",
+      "n_worn": 6.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_cable_knit_sweater.png"
+    },
+    {
+      "item": "grey flowered sweater",
+      "type": "sweater",
+      "color": "grey",
+      "pattern": "floral",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_flowered_sweater.png"
+    },
+    {
+      "item": "blue plaid shirt",
+      "type": "top",
+      "color": "blue",
+      "pattern": "plaid",
+      "n_worn": null,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/blue_plaid_shirt.png"
+    },
+    {
+      "item": "grey crop top",
+      "type": "top",
+      "color": "grey",
+      "pattern": "solid",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_crop_top.png"
+    },
+    {
+      "item": "tribal crop top",
+      "type": "top",
+      "color": "grey",
+      "pattern": "tribal",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/tribal_crop_top.png"
+    },
+    {
+      "item": "black boots",
+      "type": "shoes",
+      "color": "black",
+      "pattern": "solid",
+      "n_worn": 24.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_boots.png"
+    },
+    {
+      "item": "black circle skirt",
+      "type": "skirt",
+      "color": "black",
+      "pattern": "solid",
+      "n_worn": 3.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_circle_skirt.png"
+    },
+    {
+      "item": "black button skirt",
+      "type": "skirt",
+      "color": "black",
+      "pattern": "solid",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_button_skirt.png"
+    },
+    {
+      "item": "long sleeve lace crop top",
+      "type": "top",
+      "color": "white",
+      "pattern": "lace",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/long_sleeve_lace_crop_top.png"
+    },
+    {
+      "item": "purple triangle dress",
+      "type": "dress",
+      "color": "purple",
+      "pattern": "geometric",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/purple_triangle_dress.png"
+    },
+    {
+      "item": "alpaca sweater",
+      "type": "sweater",
+      "color": "grey",
+      "pattern": "other",
+      "n_worn": 3.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/alpaca_sweater.png"
+    },
+    {
+      "item": "pink tee",
+      "type": "top",
+      "color": "pink",
+      "pattern": "solid",
+      "n_worn": 3.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/pink_tee.png"
+    },
+    {
+      "item": "silver tank top",
+      "type": "top",
+      "color": "grey",
+      "pattern": "lace",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/silver_tank_top.png"
+    },
+    {
+      "item": "flower crown",
+      "type": "other",
+      "color": "pink",
+      "pattern": "floral",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/flower_crown.png"
+    },
+    {
+      "item": "rosie the riveter tank top",
+      "type": "top",
+      "color": "black",
+      "pattern": "other",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/rosie_the_riveter_tank_top.png"
+    },
+    {
+      "item": "see through dress",
+      "type": "dress",
+      "color": "blue",
+      "pattern": "polka dots",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/see_through_dress.png"
+    },
+    {
+      "item": "navy circle skirt",
+      "type": "skirt",
+      "color": "blue",
+      "pattern": "solid",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/navy_circle_skirt.png"
+    },
+    {
+      "item": "white dress",
+      "type": "dress",
+      "color": "white",
+      "pattern": "solid",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/white_dress.png"
+    },
+    {
+      "item": "blue flowered tank top",
+      "type": "top",
+      "color": "blue",
+      "pattern": "floral",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/blue_flowered_tank_top.png"
+    },
+    {
+      "item": "black lace tank top",
+      "type": "top",
+      "color": "black",
+      "pattern": "lace",
+      "n_worn": 4.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_lace_tank_top.png"
+    },
+    {
+      "item": "pink bralette",
+      "type": "other",
+      "color": "pink",
+      "pattern": "lace",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/pink_bralette.png"
+    },
+    {
+      "item": "black lace shirt",
+      "type": "top",
+      "color": "black",
+      "pattern": "lace",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_lace_shirt.png"
+    },
+    {
+      "item": "grey cardigan",
+      "type": "sweater",
+      "color": "grey",
+      "pattern": "solid",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_cardigan.png"
+    },
+    {
+      "item": "new black boots",
+      "type": "shoes",
+      "color": "black",
+      "pattern": "solid",
+      "n_worn": 25.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/new_black_boots.png"
+    },
+    {
+      "item": "sneakers",
+      "type": "shoes",
+      "color": "black",
+      "pattern": "solid",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/sneakers.png"
+    },
+    {
+      "item": "thirsty thursday tank",
+      "type": "top",
+      "color": "black",
+      "pattern": "other",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/thirsty_thursday_tank.png"
+    },
+    {
+      "item": "black vans",
+      "type": "shoes",
+      "color": "black",
+      "pattern": "solid",
+      "n_worn": 3.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_vans.png"
+    },
+    {
+      "item": "gold vans",
+      "type": "shoes",
+      "color": "black",
+      "pattern": "other",
+      "n_worn": 3.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/gold_vans.png"
+    },
+    {
+      "item": "black bra",
+      "type": "other",
+      "color": "black",
+      "pattern": "lace",
+      "n_worn": 2.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_bra.png"
+    },
+    {
+      "item": "black bralette",
+      "type": "other",
+      "color": "black",
+      "pattern": "lace",
+      "n_worn": 1.0,
+      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_bralette.png"
+    }
+  ]
 ]

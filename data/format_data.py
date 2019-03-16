@@ -40,5 +40,5 @@ node_df = node_df.reset_index()
 # OUTPUT
 ################################################################################
 
-# this is not correct yet
-node_df.to_json("graph.json", orient="records")
+node_df[node_df["color"] == "red"].to_json("graph_red.json", orient="records")
+node_df[node_df["color"] != "red"].to_json("graph.json", orient="records")
