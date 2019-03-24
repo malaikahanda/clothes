@@ -1,4 +1,5 @@
-[
+{
+  "nodes": [
     {
       "item": "flower crop top",
       "type": "top",
@@ -32,46 +33,6 @@
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_plaid_flannel.png"
     },
     {
-      "item": "red tank top",
-      "type": "top",
-      "color": "red",
-      "pattern": "lace",
-      "n_worn": 2.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_tank_top.png"
-    },
-    {
-      "item": "maroon sweater",
-      "type": "sweater",
-      "color": "red",
-      "pattern": "stripes",
-      "n_worn": 4.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/maroon_sweater.png"
-    },
-    {
-      "item": "maroon skirt",
-      "type": "skirt",
-      "color": "red",
-      "pattern": "geometric",
-      "n_worn": 1.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/maroon_skirt.png"
-    },
-    {
-      "item": "red button dress",
-      "type": "dress",
-      "color": "red",
-      "pattern": "solid",
-      "n_worn": 1.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_button_dress.png"
-    },
-    {
-      "item": "black corduroys",
-      "type": "pants",
-      "color": "black",
-      "pattern": "solid",
-      "n_worn": 4.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_corduroys.png"
-    },
-    {
       "item": "black tights",
       "type": "pants",
       "color": "black",
@@ -94,133 +55,44 @@
       "pattern": "geometric",
       "n_worn": 1.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_triangle_dress.png"
-    },
-    {
-      "item": "leggings",
-      "type": "pants",
-      "color": "black",
-      "pattern": "solid",
-      "n_worn": 2.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/leggings.png"
-    },
-    {
-      "item": "adidas joggers",
-      "type": "pants",
-      "color": "black",
-      "pattern": "solid",
-      "n_worn": 2.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/adidas_joggers.png"
-    },
-    {
-      "item": "black jeans",
-      "type": "pants",
-      "color": "black",
-      "pattern": "denim",
-      "n_worn": 4.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_jeans.png"
-    },
-    {
-      "item": "black flowered dress",
-      "type": "dress",
-      "color": "black",
-      "pattern": "floral",
-      "n_worn": 1.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_flowered_dress.png"
-    },
-    {
-      "item": "black boots",
-      "type": "shoes",
-      "color": "black",
-      "pattern": "solid",
-      "n_worn": 24.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_boots.png"
-    },
-    {
-      "item": "black circle skirt",
-      "type": "skirt",
-      "color": "black",
-      "pattern": "solid",
-      "n_worn": 3.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_circle_skirt.png"
-    },
-    {
-      "item": "black button skirt",
-      "type": "skirt",
-      "color": "black",
-      "pattern": "solid",
-      "n_worn": 1.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_button_skirt.png"
-    },
-    {
-      "item": "black lace tank top",
-      "type": "top",
-      "color": "black",
-      "pattern": "lace",
-      "n_worn": 4.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_lace_tank_top.png"
-    },
-    {
-      "item": "black lace shirt",
-      "type": "top",
-      "color": "black",
-      "pattern": "lace",
-      "n_worn": 2.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_lace_shirt.png"
-    },
-    {
-      "item": "new black boots",
-      "type": "shoes",
-      "color": "black",
-      "pattern": "solid",
-      "n_worn": 25.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/new_black_boots.png"
-    },
-    {
-      "item": "sneakers",
-      "type": "shoes",
-      "color": "black",
-      "pattern": "solid",
-      "n_worn": 1.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/sneakers.png"
-    },
-    {
-      "item": "thirsty thursday tank",
-      "type": "top",
-      "color": "black",
-      "pattern": "other",
-      "n_worn": 1.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/thirsty_thursday_tank.png"
-    },
-    {
-      "item": "black vans",
-      "type": "shoes",
-      "color": "black",
-      "pattern": "solid",
-      "n_worn": 3.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_vans.png"
-    },
-    {
-      "item": "gold vans",
-      "type": "shoes",
-      "color": "black",
-      "pattern": "other",
-      "n_worn": 3.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/gold_vans.png"
-    },
-    {
-      "item": "black bra",
-      "type": "other",
-      "color": "black",
-      "pattern": "lace",
-      "n_worn": 2.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_bra.png"
-    },
-    {
-      "item": "black bralette",
-      "type": "other",
-      "color": "black",
-      "pattern": "lace",
-      "n_worn": 1.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_bralette.png"
     }
-]
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1
+    },
+    {
+      "source": 0,
+      "target": 2
+    },
+    {
+      "source": 0,
+      "target": 3
+    },
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 3
+    },
+    {
+      "source": 2,
+      "target": 3
+    },
+    {
+      "source": 4,
+      "target": 5
+    },
+    {
+      "source": 4,
+      "target": 6
+    },
+    {
+      "source": 5,
+      "target": 6
+    }
+  ]
+}
