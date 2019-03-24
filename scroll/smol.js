@@ -10,7 +10,6 @@ d3.json(url, function(error, graph) {
     var nodes = graph.nodes;
     // var links = graph.links;
     var root = nodes[0];
-    var color = d3.scale.category10();
 
     root.radius = 0;
     root.fixed = true;
@@ -41,7 +40,7 @@ d3.json(url, function(error, graph) {
         .data(nodes.slice(1))
         .enter()
         .append("circle")
-        .attr("r", 10)
+        .attr("r", function(d) { return d.radius; })
         .style("fill", function(d) { return d.color; });
 
     // do this every millisecond (or arbitrary time length)
@@ -69,7 +68,7 @@ d3.json(url, function(error, graph) {
 
     function collide(node) {
 
-        var r = 10 + 16;
+        var r = node.radius + 16;
         var nx1 = node.x - r;
         var nx2 = node.x + r;
         var ny1 = node.y - r;
@@ -81,7 +80,7 @@ d3.json(url, function(error, graph) {
                 var x = node.x - quad.point.x,
                 var y = node.y - quad.point.y,
                 var l = Math.sqrt(x * x + y * y),
-                var r = 10 + quad.point.radius;
+                var r = node.radius + quad.point.radius;
 
                 if (l < r) {
                     l = (l - r) / l * .5;
