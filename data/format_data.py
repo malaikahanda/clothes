@@ -9,6 +9,7 @@ import json
 import numpy as np
 import os
 import pandas as pd
+import random
 
 # read in the files
 nodes = pd.read_csv("node_attributes.csv")
@@ -24,6 +25,11 @@ COL = "color"
 # add image column
 IMG_STRING = "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/{}.png"
 nodes["img"] = [IMG_STRING.format(node.replace(" ", "_")) for node in nodes["item"].tolist()]
+
+# add radius column
+rs = [5, 10, 15, 20]
+radii = [random.choice(rs) for i in range(nodes.shape[0])]
+nodes["radius"] = radii 
 
 
 ################################################################################
