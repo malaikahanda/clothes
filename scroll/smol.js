@@ -8,7 +8,7 @@ d3.json(url, function(error, graph) {
 
     // segment the json
     var nodes = graph.nodes;
-    // var links = graph.links;
+    var links = graph.links;
     var root = nodes[0];
 
     root.radius = 0;
@@ -16,10 +16,10 @@ d3.json(url, function(error, graph) {
 
     // create a force layout objects using our graph
     var force = d3.layout.force()
-        .gravity(0.05)
-        .charge(function(d, i) { return i ? 0 : -2000; })
+        //.gravity(0.05)
+        //.charge(function(d, i) { return i ? 0 : -2000; })
         .nodes(nodes)
-        // .links(links)
+        .links(links)
         .size([width, height]);
 
     force.start()
@@ -27,13 +27,6 @@ d3.json(url, function(error, graph) {
     var svg = d3.select("body").append("svg")
         .attr("width", width)
         .attr("height", height);
-
-    // // add a line corresponding to each link
-    // var link = svg.selectAll(".link")
-    //     .data(links)
-    //     .enter()
-    //     .append("line")
-    //     .attr("class", "link");
 
     // add a circle corresponding to each node
     svg.selectAll("circle")
@@ -77,9 +70,9 @@ d3.json(url, function(error, graph) {
         return function(quad, x1, y1, x2, y2) {
 
             if (quad.point && (quad.point !== node)) {
-                var x = node.x - quad.point.x,
-                var y = node.y - quad.point.y,
-                var l = Math.sqrt(x * x + y * y),
+                var x = node.x - quad.point.x;
+                var y = node.y - quad.point.y;
+                var l = Math.sqrt(x * x + y * y);
                 var r = node.radius + quad.point.radius;
 
                 if (l < r) {

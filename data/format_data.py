@@ -12,24 +12,40 @@ import pandas as pd
 import random
 
 # read in the files
-nodes = pd.read_csv("node_attributes.csv")
+nodes = pd.read_csv("node_attributes.csv").set_index("item")
+days = pd.read_csv("days.csv").fillna("")
 
-# determine sorting column
+# globals
 COL = "color"
+R_MIN = 8
+R_MAX = 30
 
 
 ################################################################################
 # CREATE THE NODES
 ################################################################################
 
+# get counts
+items = []
+for i, row in days.iterrows():
+    not_null = [e for e in row.tolist()[1:] if e != ""]
+    items.extend(not_null)
+counts = Counter(items)
+
+# add count column
+data = {"item": list(counts.keys()), "n_worn": list(counts.values())}
+count_df = pd.DataFrame(data).set_index("item")
+nodes = nodes.join(count_df)
+
+# scale the counts to be reasonable
+old_min = min(nodes["n_worn"])
+old_max = max(nodes["n_worn"])
+nodes["radius"] = (((nodes["n_worn"] - old_min) * (R_MAX - R_MIN)) / (old_max - old_min)) + R_MIN
+nodes = nodes.round({"radius": 0})
+
 # add image column
 IMG_STRING = "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/{}.png"
-nodes["img"] = [IMG_STRING.format(node.replace(" ", "_")) for node in nodes["item"].tolist()]
-
-# add radius column
-rs = [5, 10, 15, 20]
-radii = [random.choice(rs) for i in range(nodes.shape[0])]
-nodes["radius"] = radii 
+nodes["img"] = [IMG_STRING.format(node.replace(" ", "_")) for node in nodes.index.tolist()]
 
 
 ################################################################################
