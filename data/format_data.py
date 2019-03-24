@@ -11,34 +11,47 @@ import os
 import pandas as pd
 
 # read in the files
-days = pd.read_csv("days.csv", header=None).set_index(0).fillna("")
-node_attr = pd.read_csv("node_attributes.csv").set_index("item")
+nodes = pd.read_csv("node_attributes.csv")
+
+# determine sorting column
+COL = "color"
 
 
 ################################################################################
-# SET UP
+# CREATE THE NODES
 ################################################################################
-
-# convert the days data into a data frame of nodes and counts
-clothes = []
-for i, row in days.iterrows():
-    items = [e for e in row.tolist() if e != ""]
-    clothes.extend(items)
-c = Counter(clothes)
-counts = pd.DataFrame({"item": list(c.keys()), "n_worn": list(c.values())}).set_index("item")
-
-# join the counts with the node attributes
-node_df = node_attr.join(counts)
 
 # add image column
 IMG_STRING = "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/{}.png"
-node_df["img"] = [IMG_STRING.format(node.replace(" ", "_")) for node in node_df.index.tolist()]
-node_df = node_df.reset_index()
+nodes["img"] = [IMG_STRING.format(node.replace(" ", "_")) for node in nodes["item"].tolist()]
+
+
+################################################################################
+# CREATE THE LINKS
+################################################################################
+
+all_links = []
+
+# get all the possible values of COL
+groups = nodes[COL].unique()
+
+# for each value, generate a complete graph
+for group in groups:
+    cluster = nodes[nodes[COL] == group]
+    indices = cluster.index.tolist()
+    pairs = list(itertools.combinations(indices, 2))
+    links = [{"source": x, "target": y} for (x, y) in pairs]
+    all_links.extend(links)
 
 
 ################################################################################
 # OUTPUT
 ################################################################################
 
-node_df[node_df["color"] == "red"].to_json("graph_red.json", orient="records")
-node_df[node_df["color"] != "red"].to_json("graph.json", orient="records")
+# create the graph
+n = nodes.to_json(orient="records")
+g = json.dumps({"nodes": json.loads(n), "links": all_links})
+# save it
+
+with open("graph.json", "w") as f:
+    f.write(g)
