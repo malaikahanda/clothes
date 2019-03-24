@@ -1,148 +1,66 @@
-var nodes1 = [{
-    "name": "Selena Gomez"
-    , "x": 400
-    , "y": 400
-    , "fixed": true
-    , "color": "purple"
-}, {
-    "name": "Rihana"
-    , "x": 350
-    , "y": 350
-    , "fixed": true
-    , "color": "red"
-}, {
-    "name": "Avril Lavigne"
-    , "x": 250
-    , "y": 350
-    , "fixed": true
-    , "color": "green"
-}];
 
-var edges1 = [{
-    "source": 1
-    , "target": 0
-}, {
-    "source": 1
-    , "target": 2
-}];
+// in the body of our html file, add a svg container
+// (ie, a section of <svg>...</svg>)
+// and fill in the dimension attributes
+var width = 640; 
+var height = 480;
+var svg = d3.select('body').append('svg')
+    .attr('width', width)
+    .attr('height', height);
 
-nodes1.forEach((d, i) => d.generatedId = 'id' + i);
+// read in a graph
+var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/data/graph.json";
+d3.json(url, function(error, graph) {
 
-var nodes2 = [{
-    "name": "Mariah Carey"
-    , "x": 700
-    , "y": 400
-    , "fixed": true
-    , "color": "purple"
-}, {
-    "name": "Beyonce"
-    , "x": 750
-    , "y": 450
-    , "fixed": true
-    , "color": "red"
-}];
+    // initial json
+    console.log(graph);
 
-var edges2 = [{
-    "source": 1
-    , "target": 0
-}];
-
-nodes2.forEach((d, i) => d.generatedId = 'id' + i);
-
-var linkDistance = 150;
-//Width and height
-var svgWidth = 1000;
-var svgHeight = 600;
-var circleRadius = 10;
-var changeX = 100;
-var changeY;
-
-//Create SVG element
-var svg = d3.select("svg")
-    .attr("width", svgWidth)
-    .attr("height", svgHeight);
-
-//call the build twice (and node names are wrong) either order of calls has errors.
-build(nodes1, edges1);
-build(nodes2, edges2);
-
-function build(nodes, edges) {
-
-    // var simulation = d3.forceSimulation()
-    //     .force("link", d3.forceLink()
-    //         .id(function (d, i) {
-    //             return i;
-    //         })
-    //         .distance(linkDistance))
-    //     .force("charge", d3.forceManyBody()
-    //         .strength(0))
-
-    var force = d3.layout.force()
-        .size([svgWidth, svgHeight])
-        .nodes(nodes)
-        .links(edges);
-
+    // segment the json
+    var nodes = graph.nodes;
     console.log(nodes);
-    console.log(force);
+    var links = graph.links;
+    console.log(links);
 
-    var edge = svg.selectAll('.link')
-        .data(edges)
+    // create a force layout objects using our graph
+    var force = d3.layout.force()
+        .size([width, height])
+        .nodes(nodes)
+        .links(links);
+
+    // add a line corresponding to each link
+    var link = svg.selectAll(".link")
+        .data(links)
         .enter()
-        .append('line')
-        .attr('class', 'link');
+        .append("line")
+        .attr("class", "link");
 
-    // var edge = svg.append('g')
-    //     .attr('class', 'links')
-    //     .selectAll("line")
-    //     .data(edges)
-    //     .enter()
-    //     .append("line");
-
-    // var node = svg.selectAll(".node")
-    //     .data(nodes)
-    //     .enter()
-    //     .append("g")
-    //     .attr("class", "node");
-
-    //Create nodes as circles
-    var node = svg.append('g')
-        .attr('class', 'nodes')
-        .selectAll('circle')
+    // add a circle corresponding to each node
+    var node = svg.selectAll(".node")
         .data(nodes)
         .enter()
         .append("circle")
-        .attr("r", circleRadius)
-        .attr('fill', function (d) { return d.color; });
-        // .call(d3.drag()
-        //     .on("start", dragstarted)
-        //     .on("drag", dragged)
-        //     .on("end", dragended));
-            
-    // //Every time the simulation "ticks", this will be called
-    // force.nodes(nodes)
-    //     .on("tick", ticked);
-    // // force.force("link")
-    // //     .links(edges);
+        .attr("class", "node");
 
+    // instruct force what to do when it's done with the calculations
     force.on("end", function() {
 
-        edge.attr('x1', function(d) { return d.source.x; })
-            .attr('y1', function(d) { return d.source.y; })
-            .attr('x2', function(d) { return d.target.x; })
-            .attr('y2', function(d) { return d.target.y; });
+        console.log(node);
 
-        node.attr('r', circleRadius)
-            .attr('cx', function(d) { return d.x; })
-            .attr('cy', function(d) { return d.y; });
+        // put the nodes in place
+        node.attr("r", 5)
+            .attr("cx", function(d) { return d.x; })
+            .attr("cy", function(d) { return d.y; })
+            .attr("fill", function(d) { return d.color; });
 
-        // node.append("image")
-            // .attr("xlink:href", function(d) { return d.img; })
-            // .attr("x", function(d) { return d.x; })
-            // .attr("y", function(d) { return d.y; })
-            // .attr("width", 40)
-            // .attr("height", 40);
+        // put the links in place
+        link.attr("x1", function(d) { return d.source.x; })
+            .attr("y1", function(d) { return d.source.y; })
+            .attr("x2", function(d) { return d.target.x; })
+            .attr("y2", function(d) { return d.target.y; });
+
     });
 
+    // start the calculations!
     force.start();
 
-}
+});
