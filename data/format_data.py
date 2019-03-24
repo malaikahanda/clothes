@@ -53,6 +53,7 @@ nodes["img"] = [IMG_STRING.format(node.replace(" ", "_")) for node in nodes.inde
 ################################################################################
 
 all_links = []
+nodes = nodes.reset_index()
 
 # get all the possible values of COL
 groups = nodes[COL].unique()

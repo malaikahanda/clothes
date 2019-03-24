@@ -8,7 +8,9 @@ d3.json(url, function(error, graph) {
 
     // segment the json
     var nodes = graph.nodes;
+    console.log(nodes);
     var links = graph.links;
+    console.log(links);
     var root = nodes[0];
 
     root.radius = 0;
