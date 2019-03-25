@@ -30,33 +30,19 @@ d3.json(url, function(error, graph) {
         .attr("width", width)
         .attr("height", height);
 
-    var x = svg.selectAll("g.node")
+    var node = svg.selectAll(".node")
         .data(nodes)
         .enter()
-        .append("svg:g")
+        .append("g")
         .attr("class", "node")
-        .append("svg:circle")
-        .attr("r", function(d) { return d.radius; })
-        .style("fill", "#eee")
-        .append("svg:image")
+        .append("image")
         .attr("xlink:href",  function(d) { return d.img; })
-        .attr("x", function(d) { return -25;})
-        .attr("y", function(d) { return -25;})
-        .attr("height", 50)
-        .attr("width", 50);
-    console.log(x);
-
-    // add a circle corresponding to each node
-    // svg.selectAll("circle")
-        // .data(nodes.slice(1))
-        // .enter()
-        // .append("image")
-        // .attr("xlink:href", function(d) { return d.img; })
-        // .attr("width", function(d) { return d.radius / 2; })
-        // .attr("height", function(d) { return d.radius / 2; });
-        // .append("circle")
-        // .attr("r", function(d) { return d.radius; })
-        // .style("fill", function(d) { return d.color; });
+        .attr("x", function(d) { return -25; })
+        .attr("y", function(d) { return -25; })
+        .attr("height", 40)
+        .attr("width", 40);
+        // .attr("height", function(d) { return d.radius * 2; })
+        // .attr("width", function(d) { return d.radius * 2; });
 
     // do this every millisecond (or arbitrary time length)
     force.on("tick", function(e) {
@@ -67,10 +53,9 @@ d3.json(url, function(error, graph) {
 
         while (++i < n) q.visit(collide(nodes[i]));
 
-        // svg.selectAll("image")
-        svg.selectAll("circle")
-            .attr("cx", function(d) { return d.x; })
-            .attr("cy", function(d) { return d.y; });
+        svg.selectAll("image")
+            .attr("x", function(d) { return d.x; })
+            .attr("y", function(d) { return d.y; });
     });
 
 
@@ -84,7 +69,8 @@ d3.json(url, function(error, graph) {
 
     function collide(node) {
 
-        var r = node.radius + 16;
+        // var r = node.radius + 16;
+        var r = 40 + 16;
         var nx1 = node.x - r;
         var nx2 = node.x + r;
         var ny1 = node.y - r;
@@ -96,7 +82,8 @@ d3.json(url, function(error, graph) {
                 var x = node.x - quad.point.x;
                 var y = node.y - quad.point.y;
                 var l = Math.sqrt(x * x + y * y);
-                var r = node.radius + quad.point.radius;
+                // var r = node.radius + quad.point.radius;
+                var r = 40 + quad.point.radius;
 
                 if (l < r) {
                     l = (l - r) / l * .5;
