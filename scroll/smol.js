@@ -3,8 +3,8 @@
 var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/data/graph.json";
 d3.json(url, function(error, graph) {
 
-    var width = 960;
-    var height = 500;
+    var width = 640;
+    var height = 720;
 
     // segment the json
     var nodes = graph.nodes;
@@ -30,13 +30,33 @@ d3.json(url, function(error, graph) {
         .attr("width", width)
         .attr("height", height);
 
-    // add a circle corresponding to each node
-    svg.selectAll("circle")
-        .data(nodes.slice(1))
+    var x = svg.selectAll("g.node")
+        .data(nodes)
         .enter()
-        .append("circle")
+        .append("svg:g")
+        .attr("class", "node")
+        .append("svg:circle")
         .attr("r", function(d) { return d.radius; })
-        .style("fill", function(d) { return d.color; });
+        .style("fill", "#eee")
+        .append("svg:image")
+        .attr("xlink:href",  function(d) { return d.img; })
+        .attr("x", function(d) { return -25;})
+        .attr("y", function(d) { return -25;})
+        .attr("height", 50)
+        .attr("width", 50);
+    console.log(x);
+
+    // add a circle corresponding to each node
+    // svg.selectAll("circle")
+        // .data(nodes.slice(1))
+        // .enter()
+        // .append("image")
+        // .attr("xlink:href", function(d) { return d.img; })
+        // .attr("width", function(d) { return d.radius / 2; })
+        // .attr("height", function(d) { return d.radius / 2; });
+        // .append("circle")
+        // .attr("r", function(d) { return d.radius; })
+        // .style("fill", function(d) { return d.color; });
 
     // do this every millisecond (or arbitrary time length)
     force.on("tick", function(e) {
@@ -47,18 +67,19 @@ d3.json(url, function(error, graph) {
 
         while (++i < n) q.visit(collide(nodes[i]));
 
+        // svg.selectAll("image")
         svg.selectAll("circle")
             .attr("cx", function(d) { return d.x; })
             .attr("cy", function(d) { return d.y; });
     });
 
 
-    svg.on("mousemove", function() {
-        var p1 = d3.mouse(this);
-        root.px = p1[0];
-        root.py = p1[1];
-        force.resume();
-    });
+    // svg.on("mousemove", function() {
+    //     var p1 = d3.mouse(this);
+    //     root.px = p1[0];
+    //     root.py = p1[1];
+    //     force.resume();
+    // });
 
 
     function collide(node) {
