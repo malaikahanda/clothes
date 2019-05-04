@@ -72,8 +72,8 @@ for group in groups:
 ################################################################################
 
 # create the graph
-n = nodes.to_json(orient="records")
-g = json.dumps({"nodes": json.loads(n), "links": all_links})
+n = nodes.to_dict("index")
+g = json.dumps({"nodes": n, "links": all_links})
 # save it
 
 with open("graph.json", "w") as f:

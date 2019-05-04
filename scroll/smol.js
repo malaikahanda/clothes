@@ -18,11 +18,13 @@ d3.json(url, function(error, graph) {
 
     // create a force layout objects using our graph
     var force = d3.layout.force()
-        //.gravity(0.05)
+        .gravity(0.5)
         //.charge(function(d, i) { return i ? 0 : -2000; })
         .nodes(nodes)
         .links(links)
-        .size([width, height]);
+        .size([width, height])
+        .linkDistance(80);
+        // .gravity(0);
 
     force.start()
 
@@ -39,8 +41,8 @@ d3.json(url, function(error, graph) {
         .attr("xlink:href",  function(d) { return d.img; })
         .attr("x", function(d) { return -25; })
         .attr("y", function(d) { return -25; })
-        .attr("height", 40)
-        .attr("width", 40);
+        .attr("height", 20)
+        .attr("width", 20);
         // .attr("height", function(d) { return d.radius * 2; })
         // .attr("width", function(d) { return d.radius * 2; });
 
@@ -69,8 +71,7 @@ d3.json(url, function(error, graph) {
 
     function collide(node) {
 
-        // var r = node.radius + 16;
-        var r = 40 + 16;
+        var r = node.radius + 16;
         var nx1 = node.x - r;
         var nx2 = node.x + r;
         var ny1 = node.y - r;
@@ -82,8 +83,7 @@ d3.json(url, function(error, graph) {
                 var x = node.x - quad.point.x;
                 var y = node.y - quad.point.y;
                 var l = Math.sqrt(x * x + y * y);
-                // var r = node.radius + quad.point.radius;
-                var r = 40 + quad.point.radius;
+                var r = node.radius + quad.point.radius;
 
                 if (l < r) {
                     l = (l - r) / l * .5;
