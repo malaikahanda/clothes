@@ -2,16 +2,16 @@
   "nodes": {
     "0": {
       "item": "black tights",
-      "n_worn": 31,
+      "n_worn": 9,
       "type": "pants",
       "color": "black",
       "pattern": "solid",
-      "radius": 23.0,
+      "radius": 16.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_tights.png"
     },
     "1": {
       "item": "purple lace dress",
-      "n_worn": 2,
+      "n_worn": 1,
       "type": "dress",
       "color": "purple",
       "pattern": "lace",
@@ -20,20 +20,20 @@
     },
     "2": {
       "item": "black boots",
-      "n_worn": 23,
+      "n_worn": 22,
       "type": "shoes",
       "color": "black",
       "pattern": "solid",
-      "radius": 19.0,
+      "radius": 30.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_boots.png"
     },
     "3": {
       "item": "light skinny jeans",
-      "n_worn": 15,
+      "n_worn": 3,
       "type": "pants",
       "color": "blue",
       "pattern": "denim",
-      "radius": 15.0,
+      "radius": 10.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/light_skinny_jeans.png"
     },
     "4": {
@@ -47,11 +47,11 @@
     },
     "5": {
       "item": "alpaca sweater",
-      "n_worn": 3,
+      "n_worn": 1,
       "type": "sweater",
       "color": "grey",
       "pattern": "other",
-      "radius": 9.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/alpaca_sweater.png"
     },
     "6": {
@@ -60,12 +60,12 @@
       "type": "pants",
       "color": "black",
       "pattern": "solid",
-      "radius": 9.0,
+      "radius": 10.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_corduroys.png"
     },
     "7": {
       "item": "grey striped sweater",
-      "n_worn": 8,
+      "n_worn": 4,
       "type": "sweater",
       "color": "grey",
       "pattern": "stripes",
@@ -83,47 +83,47 @@
     },
     "9": {
       "item": "black flowered dress",
-      "n_worn": 3,
+      "n_worn": 1,
       "type": "dress",
       "color": "black",
       "pattern": "floral",
-      "radius": 9.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_flowered_dress.png"
     },
     "10": {
       "item": "dark skinny jeans",
-      "n_worn": 19,
+      "n_worn": 4,
       "type": "pants",
       "color": "blue",
       "pattern": "denim",
-      "radius": 17.0,
+      "radius": 11.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/dark_skinny_jeans.png"
     },
     "11": {
       "item": "grey cable knit sweater",
-      "n_worn": 8,
+      "n_worn": 3,
       "type": "sweater",
       "color": "grey",
       "pattern": "other",
-      "radius": 11.0,
+      "radius": 10.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_cable_knit_sweater.png"
     },
     "12": {
       "item": "black lace tank top",
-      "n_worn": 10,
+      "n_worn": 4,
       "type": "top",
       "color": "black",
       "pattern": "lace",
-      "radius": 12.0,
+      "radius": 11.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_lace_tank_top.png"
     },
     "13": {
       "item": "red lace shirt",
-      "n_worn": 3,
+      "n_worn": 1,
       "type": "top",
       "color": "red",
       "pattern": "lace",
-      "radius": 9.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_lace_shirt.png"
     },
     "14": {
@@ -137,7 +137,7 @@
     },
     "15": {
       "item": "cream dress",
-      "n_worn": 3,
+      "n_worn": 2,
       "type": "dress",
       "color": "white",
       "pattern": "solid",
@@ -146,29 +146,29 @@
     },
     "16": {
       "item": "pink bralette",
-      "n_worn": 5,
+      "n_worn": 2,
       "type": "other",
       "color": "pink",
       "pattern": "lace",
-      "radius": 10.0,
+      "radius": 9.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/pink_bralette.png"
     },
     "17": {
       "item": "flower crown",
-      "n_worn": 9,
+      "n_worn": 1,
       "type": "other",
       "color": "pink",
       "pattern": "floral",
-      "radius": 12.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/flower_crown.png"
     },
     "18": {
       "item": "black ripped jeans",
-      "n_worn": 6,
+      "n_worn": 4,
       "type": "pants",
       "color": "black",
       "pattern": "denim",
-      "radius": 10.0,
+      "radius": 11.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_ripped_jeans.png"
     },
     "19": {
@@ -182,20 +182,20 @@
     },
     "20": {
       "item": "blue plaid skirt",
-      "n_worn": 4,
+      "n_worn": 1,
       "type": "skirt",
       "color": "blue",
       "pattern": "plaid",
-      "radius": 9.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/blue_plaid_skirt.png"
     },
     "21": {
       "item": "black lace shirt",
-      "n_worn": 6,
+      "n_worn": 1,
       "type": "top",
       "color": "black",
       "pattern": "lace",
-      "radius": 10.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_lace_shirt.png"
     },
     "22": {
@@ -222,12 +222,12 @@
       "type": "sweater",
       "color": "grey",
       "pattern": "solid",
-      "radius": 8.0,
+      "radius": 9.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_cardigan.png"
     },
     "25": {
       "item": "black triangle dress",
-      "n_worn": 2,
+      "n_worn": 1,
       "type": "dress",
       "color": "black",
       "pattern": "geometric",
@@ -236,16 +236,16 @@
     },
     "26": {
       "item": "leggings",
-      "n_worn": 5,
+      "n_worn": 1,
       "type": "pants",
       "color": "black",
       "pattern": "solid",
-      "radius": 10.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/leggings.png"
     },
     "27": {
       "item": "blue plaid flannel",
-      "n_worn": 2,
+      "n_worn": 1,
       "type": "top",
       "color": "blue",
       "pattern": "plaid",
@@ -254,7 +254,7 @@
     },
     "28": {
       "item": "soft blue button down",
-      "n_worn": 4,
+      "n_worn": 2,
       "type": "top",
       "color": "blue",
       "pattern": "polka dots",
@@ -263,7 +263,7 @@
     },
     "29": {
       "item": "maroon sweater",
-      "n_worn": 5,
+      "n_worn": 3,
       "type": "sweater",
       "color": "red",
       "pattern": "stripes",
@@ -272,16 +272,16 @@
     },
     "30": {
       "item": "grey crop top",
-      "n_worn": 4,
+      "n_worn": 1,
       "type": "top",
       "color": "grey",
       "pattern": "solid",
-      "radius": 9.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_crop_top.png"
     },
     "31": {
       "item": "tribal crop top",
-      "n_worn": 2,
+      "n_worn": 1,
       "type": "top",
       "color": "grey",
       "pattern": "tribal",
@@ -290,7 +290,7 @@
     },
     "32": {
       "item": "navy blue romper",
-      "n_worn": 2,
+      "n_worn": 1,
       "type": "dress",
       "color": "blue",
       "pattern": "floral",
@@ -299,52 +299,52 @@
     },
     "33": {
       "item": "embroidered dress",
-      "n_worn": 8,
+      "n_worn": 1,
       "type": "dress",
       "color": "blue",
       "pattern": "floral",
-      "radius": 11.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/embroidered_dress.png"
     },
     "34": {
       "item": "blue striped sweater",
-      "n_worn": 3,
+      "n_worn": 1,
       "type": "sweater",
       "color": "blue",
       "pattern": "stripes",
-      "radius": 9.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/blue_striped_sweater.png"
     },
     "35": {
       "item": "black circle skirt",
-      "n_worn": 5,
+      "n_worn": 2,
       "type": "skirt",
       "color": "black",
       "pattern": "solid",
-      "radius": 10.0,
+      "radius": 9.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_circle_skirt.png"
     },
     "36": {
       "item": "new black boots",
-      "n_worn": 46,
+      "n_worn": 6,
       "type": "shoes",
       "color": "black",
       "pattern": "solid",
-      "radius": 30.0,
+      "radius": 13.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/new_black_boots.png"
     },
     "37": {
       "item": "polka dot button up",
-      "n_worn": 3,
+      "n_worn": 1,
       "type": "top",
       "color": "blue",
       "pattern": "polka dots",
-      "radius": 9.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/polka_dot_button_up.png"
     },
     "38": {
       "item": "black button skirt",
-      "n_worn": 2,
+      "n_worn": 1,
       "type": "skirt",
       "color": "black",
       "pattern": "solid",
@@ -353,7 +353,7 @@
     },
     "39": {
       "item": "r&g t shirt",
-      "n_worn": 2,
+      "n_worn": 1,
       "type": "top",
       "color": "multi",
       "pattern": "other",
@@ -366,48 +366,48 @@
       "type": "top",
       "color": "red",
       "pattern": "lace",
-      "radius": 8.0,
+      "radius": 9.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_tank_top.png"
     },
     "41": {
       "item": "red plaid flannel",
-      "n_worn": 7,
+      "n_worn": 2,
       "type": "top",
       "color": "red",
       "pattern": "plaid",
-      "radius": 11.0,
+      "radius": 9.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_plaid_flannel.png"
     },
     "42": {
       "item": "adidas joggers",
-      "n_worn": 6,
+      "n_worn": 1,
       "type": "pants",
       "color": "black",
       "pattern": "solid",
-      "radius": 10.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/adidas_joggers.png"
     },
     "43": {
       "item": "sneakers",
-      "n_worn": 4,
+      "n_worn": 1,
       "type": "shoes",
       "color": "black",
       "pattern": "solid",
-      "radius": 9.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/sneakers.png"
     },
     "44": {
       "item": "black bra",
-      "n_worn": 3,
+      "n_worn": 1,
       "type": "other",
       "color": "black",
       "pattern": "lace",
-      "radius": 9.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_bra.png"
     },
     "45": {
       "item": "long sleeve lace crop top",
-      "n_worn": 2,
+      "n_worn": 1,
       "type": "top",
       "color": "white",
       "pattern": "lace",
@@ -416,552 +416,30 @@
     },
     "46": {
       "item": "black jeans",
-      "n_worn": 4,
+      "n_worn": 1,
       "type": "pants",
       "color": "black",
       "pattern": "denim",
-      "radius": 9.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_jeans.png"
     },
     "47": {
       "item": "purple triangle dress",
-      "n_worn": 3,
+      "n_worn": 1,
       "type": "dress",
       "color": "purple",
       "pattern": "geometric",
-      "radius": 9.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/purple_triangle_dress.png"
     },
     "48": {
       "item": "black vans",
-      "n_worn": 29,
+      "n_worn": 1,
       "type": "shoes",
       "color": "black",
       "pattern": "solid",
-      "radius": 22.0,
+      "radius": 8.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_vans.png"
-    },
-    "49": {
-      "item": "pink tee",
-      "n_worn": 6,
-      "type": "top",
-      "color": "pink",
-      "pattern": "solid",
-      "radius": 10.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/pink_tee.png"
-    },
-    "50": {
-      "item": "thirsty thursday tank",
-      "n_worn": 1,
-      "type": "top",
-      "color": "black",
-      "pattern": "other",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/thirsty_thursday_tank.png"
-    },
-    "51": {
-      "item": "maroon skirt",
-      "n_worn": 1,
-      "type": "skirt",
-      "color": "red",
-      "pattern": "geometric",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/maroon_skirt.png"
-    },
-    "52": {
-      "item": "light flared jeans",
-      "n_worn": 1,
-      "type": "pants",
-      "color": "blue",
-      "pattern": "denim",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/light_flared_jeans.png"
-    },
-    "53": {
-      "item": "silver tank top",
-      "n_worn": 2,
-      "type": "top",
-      "color": "grey",
-      "pattern": "lace",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/silver_tank_top.png"
-    },
-    "54": {
-      "item": "grey sparkly dress",
-      "n_worn": 2,
-      "type": "dress",
-      "color": "grey",
-      "pattern": "other",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_sparkly_dress.png"
-    },
-    "55": {
-      "item": "rosie the riveter tank top",
-      "n_worn": 3,
-      "type": "top",
-      "color": "black",
-      "pattern": "other",
-      "radius": 9.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/rosie_the_riveter_tank_top.png"
-    },
-    "56": {
-      "item": "see through dress",
-      "n_worn": 3,
-      "type": "dress",
-      "color": "blue",
-      "pattern": "polka dots",
-      "radius": 9.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/see_through_dress.png"
-    },
-    "57": {
-      "item": "navy circle skirt",
-      "n_worn": 2,
-      "type": "skirt",
-      "color": "blue",
-      "pattern": "solid",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/navy_circle_skirt.png"
-    },
-    "58": {
-      "item": "white dress",
-      "n_worn": 2,
-      "type": "dress",
-      "color": "white",
-      "pattern": "solid",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/white_dress.png"
-    },
-    "59": {
-      "item": "hawaiian shirt",
-      "n_worn": 6,
-      "type": "top",
-      "color": "blue",
-      "pattern": "other",
-      "radius": 10.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/hawaiian_shirt.png"
-    },
-    "60": {
-      "item": "gold vans",
-      "n_worn": 11,
-      "type": "shoes",
-      "color": "black",
-      "pattern": "other",
-      "radius": 13.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/gold_vans.png"
-    },
-    "61": {
-      "item": "black long sleeve crop top",
-      "n_worn": 6,
-      "type": "top",
-      "color": "black",
-      "pattern": "solid",
-      "radius": 10.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_long_sleeve_crop_top.png"
-    },
-    "62": {
-      "item": "red button dress",
-      "n_worn": 1,
-      "type": "dress",
-      "color": "red",
-      "pattern": "solid",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_button_dress.png"
-    },
-    "63": {
-      "item": "black romper",
-      "n_worn": 2,
-      "type": "romper",
-      "color": "black",
-      "pattern": "solid",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_romper.png"
-    },
-    "64": {
-      "item": "red tee",
-      "n_worn": 6,
-      "type": "top",
-      "color": "red",
-      "pattern": "solid",
-      "radius": 10.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_tee.png"
-    },
-    "65": {
-      "item": "black tee",
-      "n_worn": 5,
-      "type": "top",
-      "color": "black",
-      "pattern": "solid",
-      "radius": 10.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_tee.png"
-    },
-    "66": {
-      "item": "green velvet skirt",
-      "n_worn": 1,
-      "type": "skirt",
-      "color": "green",
-      "pattern": "solid",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/green_velvet_skirt.png"
-    },
-    "67": {
-      "item": "grey plaid skirt",
-      "n_worn": 4,
-      "type": "skirt",
-      "color": "grey",
-      "pattern": "plaid",
-      "radius": 9.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_plaid_skirt.png"
-    },
-    "68": {
-      "item": "black denim skirt",
-      "n_worn": 1,
-      "type": "skirt",
-      "color": "black",
-      "pattern": "denim",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_denim_skirt.png"
-    },
-    "69": {
-      "item": "black high waisted shorts",
-      "n_worn": 1,
-      "type": "shorts",
-      "color": "black",
-      "pattern": "denim",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_high_waisted_shorts.png"
-    },
-    "70": {
-      "item": "vine dress",
-      "n_worn": 3,
-      "type": "dress",
-      "color": "green",
-      "pattern": "floral",
-      "radius": 9.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/vine_dress.png"
-    },
-    "71": {
-      "item": "nate's striped shirt",
-      "n_worn": 1,
-      "type": "top",
-      "color": "grey",
-      "pattern": "stripes",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/nate's_striped_shirt.png"
-    },
-    "72": {
-      "item": "triangle crop top",
-      "n_worn": 2,
-      "type": "top",
-      "color": "grey",
-      "pattern": "geometric",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/triangle_crop_top.png"
-    },
-    "73": {
-      "item": "black tank top",
-      "n_worn": 5,
-      "type": "top",
-      "color": "black",
-      "pattern": "solid",
-      "radius": 10.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_tank_top.png"
-    },
-    "74": {
-      "item": "green romper",
-      "n_worn": 1,
-      "type": "romper",
-      "color": "green",
-      "pattern": "floral",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/green_romper.png"
-    },
-    "75": {
-      "item": "maroon bra",
-      "n_worn": 1,
-      "type": "other",
-      "color": "red",
-      "pattern": "floral",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/maroon_bra.png"
-    },
-    "76": {
-      "item": "light high waisted shorts",
-      "n_worn": 3,
-      "type": "shorts",
-      "color": "blue",
-      "pattern": "denim",
-      "radius": 9.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/light_high_waisted_shorts.png"
-    },
-    "77": {
-      "item": "black striped shirt",
-      "n_worn": 3,
-      "type": "top",
-      "color": "black",
-      "pattern": "stripes",
-      "radius": 9.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_striped_shirt.png"
-    },
-    "78": {
-      "item": "white long sleeve crop top",
-      "n_worn": 4,
-      "type": "top",
-      "color": "white",
-      "pattern": "solid",
-      "radius": 9.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/white_long_sleeve_crop_top.png"
-    },
-    "79": {
-      "item": "checked wrap dress",
-      "n_worn": 3,
-      "type": "dress",
-      "color": "blue",
-      "pattern": "plaid",
-      "radius": 9.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/checked_wrap_dress.png"
-    },
-    "80": {
-      "item": "striped skirt",
-      "n_worn": 1,
-      "type": "skirt",
-      "color": "grey",
-      "pattern": "stripes",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/striped_skirt.png"
-    },
-    "81": {
-      "item": "black sandals",
-      "n_worn": 4,
-      "type": "shoes",
-      "color": "black",
-      "pattern": "solid",
-      "radius": 9.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_sandals.png"
-    },
-    "82": {
-      "item": "saree dress",
-      "n_worn": 1,
-      "type": "dress",
-      "color": "red",
-      "pattern": "other",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/saree_dress.png"
-    },
-    "83": {
-      "item": "navy keyhole dress",
-      "n_worn": 1,
-      "type": "dress",
-      "color": "blue",
-      "pattern": "solid",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/navy_keyhole_dress.png"
-    },
-    "84": {
-      "item": "brown sandals",
-      "n_worn": 34,
-      "type": "shoes",
-      "color": "brown",
-      "pattern": "solid",
-      "radius": 24.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/brown_sandals.png"
-    },
-    "85": {
-      "item": "jumpsuit",
-      "n_worn": 2,
-      "type": "romper",
-      "color": "black",
-      "pattern": "solid",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/jumpsuit.png"
-    },
-    "86": {
-      "item": "red jumper",
-      "n_worn": 1,
-      "type": "dress",
-      "color": "red",
-      "pattern": "plaid",
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_jumper.png"
-    },
-    "87": {
-      "item": "navy romper",
-      "n_worn": 2,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/navy_romper.png"
-    },
-    "88": {
-      "item": "white lace dress",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/white_lace_dress.png"
-    },
-    "89": {
-      "item": "pink flowered dress",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/pink_flowered_dress.png"
-    },
-    "90": {
-      "item": "gold top",
-      "n_worn": 5,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 10.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/gold_top.png"
-    },
-    "91": {
-      "item": "blue lehenga skirt",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/blue_lehenga_skirt.png"
-    },
-    "92": {
-      "item": "white lehenga skirt",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/white_lehenga_skirt.png"
-    },
-    "93": {
-      "item": "black petticoat",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_petticoat.png"
-    },
-    "94": {
-      "item": "chiffon saree",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/chiffon_saree.png"
-    },
-    "95": {
-      "item": "praetorian tee",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/praetorian_tee.png"
-    },
-    "96": {
-      "item": "pink high-low dress",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/pink_high-low_dress.png"
-    },
-    "97": {
-      "item": "pydata tee",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/pydata_tee.png"
-    },
-    "98": {
-      "item": "grey linen shorts",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/grey_linen_shorts.png"
-    },
-    "99": {
-      "item": "black patterned shorts",
-      "n_worn": 5,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 10.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_patterned_shorts.png"
-    },
-    "100": {
-      "item": "pink flowered pants",
-      "n_worn": 2,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/pink_flowered_pants.png"
-    },
-    "101": {
-      "item": "cheap long dress",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/cheap_long_dress.png"
-    },
-    "102": {
-      "item": "red canvas dress",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_canvas_dress.png"
-    },
-    "103": {
-      "item": "black leggings",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_leggings.png"
-    },
-    "104": {
-      "item": "red patterned pants",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_patterned_pants.png"
-    },
-    "105": {
-      "item": "black beaded skirt",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/black_beaded_skirt.png"
-    },
-    "106": {
-      "item": "red maxi skirt",
-      "n_worn": 1,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
-      "radius": 8.0,
-      "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/red_maxi_skirt.png"
     }
   },
   "links": [
@@ -1034,54 +512,6 @@
       "target": 48
     },
     {
-      "source": 0,
-      "target": 50
-    },
-    {
-      "source": 0,
-      "target": 55
-    },
-    {
-      "source": 0,
-      "target": 60
-    },
-    {
-      "source": 0,
-      "target": 61
-    },
-    {
-      "source": 0,
-      "target": 63
-    },
-    {
-      "source": 0,
-      "target": 65
-    },
-    {
-      "source": 0,
-      "target": 68
-    },
-    {
-      "source": 0,
-      "target": 69
-    },
-    {
-      "source": 0,
-      "target": 73
-    },
-    {
-      "source": 0,
-      "target": 77
-    },
-    {
-      "source": 0,
-      "target": 81
-    },
-    {
-      "source": 0,
-      "target": 85
-    },
-    {
       "source": 2,
       "target": 6
     },
@@ -1146,54 +576,6 @@
       "target": 48
     },
     {
-      "source": 2,
-      "target": 50
-    },
-    {
-      "source": 2,
-      "target": 55
-    },
-    {
-      "source": 2,
-      "target": 60
-    },
-    {
-      "source": 2,
-      "target": 61
-    },
-    {
-      "source": 2,
-      "target": 63
-    },
-    {
-      "source": 2,
-      "target": 65
-    },
-    {
-      "source": 2,
-      "target": 68
-    },
-    {
-      "source": 2,
-      "target": 69
-    },
-    {
-      "source": 2,
-      "target": 73
-    },
-    {
-      "source": 2,
-      "target": 77
-    },
-    {
-      "source": 2,
-      "target": 81
-    },
-    {
-      "source": 2,
-      "target": 85
-    },
-    {
       "source": 6,
       "target": 9
     },
@@ -1254,54 +636,6 @@
       "target": 48
     },
     {
-      "source": 6,
-      "target": 50
-    },
-    {
-      "source": 6,
-      "target": 55
-    },
-    {
-      "source": 6,
-      "target": 60
-    },
-    {
-      "source": 6,
-      "target": 61
-    },
-    {
-      "source": 6,
-      "target": 63
-    },
-    {
-      "source": 6,
-      "target": 65
-    },
-    {
-      "source": 6,
-      "target": 68
-    },
-    {
-      "source": 6,
-      "target": 69
-    },
-    {
-      "source": 6,
-      "target": 73
-    },
-    {
-      "source": 6,
-      "target": 77
-    },
-    {
-      "source": 6,
-      "target": 81
-    },
-    {
-      "source": 6,
-      "target": 85
-    },
-    {
       "source": 9,
       "target": 12
     },
@@ -1358,54 +692,6 @@
       "target": 48
     },
     {
-      "source": 9,
-      "target": 50
-    },
-    {
-      "source": 9,
-      "target": 55
-    },
-    {
-      "source": 9,
-      "target": 60
-    },
-    {
-      "source": 9,
-      "target": 61
-    },
-    {
-      "source": 9,
-      "target": 63
-    },
-    {
-      "source": 9,
-      "target": 65
-    },
-    {
-      "source": 9,
-      "target": 68
-    },
-    {
-      "source": 9,
-      "target": 69
-    },
-    {
-      "source": 9,
-      "target": 73
-    },
-    {
-      "source": 9,
-      "target": 77
-    },
-    {
-      "source": 9,
-      "target": 81
-    },
-    {
-      "source": 9,
-      "target": 85
-    },
-    {
       "source": 12,
       "target": 18
     },
@@ -1458,54 +744,6 @@
       "target": 48
     },
     {
-      "source": 12,
-      "target": 50
-    },
-    {
-      "source": 12,
-      "target": 55
-    },
-    {
-      "source": 12,
-      "target": 60
-    },
-    {
-      "source": 12,
-      "target": 61
-    },
-    {
-      "source": 12,
-      "target": 63
-    },
-    {
-      "source": 12,
-      "target": 65
-    },
-    {
-      "source": 12,
-      "target": 68
-    },
-    {
-      "source": 12,
-      "target": 69
-    },
-    {
-      "source": 12,
-      "target": 73
-    },
-    {
-      "source": 12,
-      "target": 77
-    },
-    {
-      "source": 12,
-      "target": 81
-    },
-    {
-      "source": 12,
-      "target": 85
-    },
-    {
       "source": 18,
       "target": 21
     },
@@ -1554,54 +792,6 @@
       "target": 48
     },
     {
-      "source": 18,
-      "target": 50
-    },
-    {
-      "source": 18,
-      "target": 55
-    },
-    {
-      "source": 18,
-      "target": 60
-    },
-    {
-      "source": 18,
-      "target": 61
-    },
-    {
-      "source": 18,
-      "target": 63
-    },
-    {
-      "source": 18,
-      "target": 65
-    },
-    {
-      "source": 18,
-      "target": 68
-    },
-    {
-      "source": 18,
-      "target": 69
-    },
-    {
-      "source": 18,
-      "target": 73
-    },
-    {
-      "source": 18,
-      "target": 77
-    },
-    {
-      "source": 18,
-      "target": 81
-    },
-    {
-      "source": 18,
-      "target": 85
-    },
-    {
       "source": 21,
       "target": 22
     },
@@ -1646,54 +836,6 @@
       "target": 48
     },
     {
-      "source": 21,
-      "target": 50
-    },
-    {
-      "source": 21,
-      "target": 55
-    },
-    {
-      "source": 21,
-      "target": 60
-    },
-    {
-      "source": 21,
-      "target": 61
-    },
-    {
-      "source": 21,
-      "target": 63
-    },
-    {
-      "source": 21,
-      "target": 65
-    },
-    {
-      "source": 21,
-      "target": 68
-    },
-    {
-      "source": 21,
-      "target": 69
-    },
-    {
-      "source": 21,
-      "target": 73
-    },
-    {
-      "source": 21,
-      "target": 77
-    },
-    {
-      "source": 21,
-      "target": 81
-    },
-    {
-      "source": 21,
-      "target": 85
-    },
-    {
       "source": 22,
       "target": 25
     },
@@ -1734,54 +876,6 @@
       "target": 48
     },
     {
-      "source": 22,
-      "target": 50
-    },
-    {
-      "source": 22,
-      "target": 55
-    },
-    {
-      "source": 22,
-      "target": 60
-    },
-    {
-      "source": 22,
-      "target": 61
-    },
-    {
-      "source": 22,
-      "target": 63
-    },
-    {
-      "source": 22,
-      "target": 65
-    },
-    {
-      "source": 22,
-      "target": 68
-    },
-    {
-      "source": 22,
-      "target": 69
-    },
-    {
-      "source": 22,
-      "target": 73
-    },
-    {
-      "source": 22,
-      "target": 77
-    },
-    {
-      "source": 22,
-      "target": 81
-    },
-    {
-      "source": 22,
-      "target": 85
-    },
-    {
       "source": 25,
       "target": 26
     },
@@ -1818,54 +912,6 @@
       "target": 48
     },
     {
-      "source": 25,
-      "target": 50
-    },
-    {
-      "source": 25,
-      "target": 55
-    },
-    {
-      "source": 25,
-      "target": 60
-    },
-    {
-      "source": 25,
-      "target": 61
-    },
-    {
-      "source": 25,
-      "target": 63
-    },
-    {
-      "source": 25,
-      "target": 65
-    },
-    {
-      "source": 25,
-      "target": 68
-    },
-    {
-      "source": 25,
-      "target": 69
-    },
-    {
-      "source": 25,
-      "target": 73
-    },
-    {
-      "source": 25,
-      "target": 77
-    },
-    {
-      "source": 25,
-      "target": 81
-    },
-    {
-      "source": 25,
-      "target": 85
-    },
-    {
       "source": 26,
       "target": 35
     },
@@ -1898,54 +944,6 @@
       "target": 48
     },
     {
-      "source": 26,
-      "target": 50
-    },
-    {
-      "source": 26,
-      "target": 55
-    },
-    {
-      "source": 26,
-      "target": 60
-    },
-    {
-      "source": 26,
-      "target": 61
-    },
-    {
-      "source": 26,
-      "target": 63
-    },
-    {
-      "source": 26,
-      "target": 65
-    },
-    {
-      "source": 26,
-      "target": 68
-    },
-    {
-      "source": 26,
-      "target": 69
-    },
-    {
-      "source": 26,
-      "target": 73
-    },
-    {
-      "source": 26,
-      "target": 77
-    },
-    {
-      "source": 26,
-      "target": 81
-    },
-    {
-      "source": 26,
-      "target": 85
-    },
-    {
       "source": 35,
       "target": 36
     },
@@ -1974,54 +972,6 @@
       "target": 48
     },
     {
-      "source": 35,
-      "target": 50
-    },
-    {
-      "source": 35,
-      "target": 55
-    },
-    {
-      "source": 35,
-      "target": 60
-    },
-    {
-      "source": 35,
-      "target": 61
-    },
-    {
-      "source": 35,
-      "target": 63
-    },
-    {
-      "source": 35,
-      "target": 65
-    },
-    {
-      "source": 35,
-      "target": 68
-    },
-    {
-      "source": 35,
-      "target": 69
-    },
-    {
-      "source": 35,
-      "target": 73
-    },
-    {
-      "source": 35,
-      "target": 77
-    },
-    {
-      "source": 35,
-      "target": 81
-    },
-    {
-      "source": 35,
-      "target": 85
-    },
-    {
       "source": 36,
       "target": 38
     },
@@ -2046,54 +996,6 @@
       "target": 48
     },
     {
-      "source": 36,
-      "target": 50
-    },
-    {
-      "source": 36,
-      "target": 55
-    },
-    {
-      "source": 36,
-      "target": 60
-    },
-    {
-      "source": 36,
-      "target": 61
-    },
-    {
-      "source": 36,
-      "target": 63
-    },
-    {
-      "source": 36,
-      "target": 65
-    },
-    {
-      "source": 36,
-      "target": 68
-    },
-    {
-      "source": 36,
-      "target": 69
-    },
-    {
-      "source": 36,
-      "target": 73
-    },
-    {
-      "source": 36,
-      "target": 77
-    },
-    {
-      "source": 36,
-      "target": 81
-    },
-    {
-      "source": 36,
-      "target": 85
-    },
-    {
       "source": 38,
       "target": 42
     },
@@ -2114,54 +1016,6 @@
       "target": 48
     },
     {
-      "source": 38,
-      "target": 50
-    },
-    {
-      "source": 38,
-      "target": 55
-    },
-    {
-      "source": 38,
-      "target": 60
-    },
-    {
-      "source": 38,
-      "target": 61
-    },
-    {
-      "source": 38,
-      "target": 63
-    },
-    {
-      "source": 38,
-      "target": 65
-    },
-    {
-      "source": 38,
-      "target": 68
-    },
-    {
-      "source": 38,
-      "target": 69
-    },
-    {
-      "source": 38,
-      "target": 73
-    },
-    {
-      "source": 38,
-      "target": 77
-    },
-    {
-      "source": 38,
-      "target": 81
-    },
-    {
-      "source": 38,
-      "target": 85
-    },
-    {
       "source": 42,
       "target": 43
     },
@@ -2178,54 +1032,6 @@
       "target": 48
     },
     {
-      "source": 42,
-      "target": 50
-    },
-    {
-      "source": 42,
-      "target": 55
-    },
-    {
-      "source": 42,
-      "target": 60
-    },
-    {
-      "source": 42,
-      "target": 61
-    },
-    {
-      "source": 42,
-      "target": 63
-    },
-    {
-      "source": 42,
-      "target": 65
-    },
-    {
-      "source": 42,
-      "target": 68
-    },
-    {
-      "source": 42,
-      "target": 69
-    },
-    {
-      "source": 42,
-      "target": 73
-    },
-    {
-      "source": 42,
-      "target": 77
-    },
-    {
-      "source": 42,
-      "target": 81
-    },
-    {
-      "source": 42,
-      "target": 85
-    },
-    {
       "source": 43,
       "target": 44
     },
@@ -2238,54 +1044,6 @@
       "target": 48
     },
     {
-      "source": 43,
-      "target": 50
-    },
-    {
-      "source": 43,
-      "target": 55
-    },
-    {
-      "source": 43,
-      "target": 60
-    },
-    {
-      "source": 43,
-      "target": 61
-    },
-    {
-      "source": 43,
-      "target": 63
-    },
-    {
-      "source": 43,
-      "target": 65
-    },
-    {
-      "source": 43,
-      "target": 68
-    },
-    {
-      "source": 43,
-      "target": 69
-    },
-    {
-      "source": 43,
-      "target": 73
-    },
-    {
-      "source": 43,
-      "target": 77
-    },
-    {
-      "source": 43,
-      "target": 81
-    },
-    {
-      "source": 43,
-      "target": 85
-    },
-    {
       "source": 44,
       "target": 46
     },
@@ -2294,416 +1052,8 @@
       "target": 48
     },
     {
-      "source": 44,
-      "target": 50
-    },
-    {
-      "source": 44,
-      "target": 55
-    },
-    {
-      "source": 44,
-      "target": 60
-    },
-    {
-      "source": 44,
-      "target": 61
-    },
-    {
-      "source": 44,
-      "target": 63
-    },
-    {
-      "source": 44,
-      "target": 65
-    },
-    {
-      "source": 44,
-      "target": 68
-    },
-    {
-      "source": 44,
-      "target": 69
-    },
-    {
-      "source": 44,
-      "target": 73
-    },
-    {
-      "source": 44,
-      "target": 77
-    },
-    {
-      "source": 44,
-      "target": 81
-    },
-    {
-      "source": 44,
-      "target": 85
-    },
-    {
       "source": 46,
       "target": 48
-    },
-    {
-      "source": 46,
-      "target": 50
-    },
-    {
-      "source": 46,
-      "target": 55
-    },
-    {
-      "source": 46,
-      "target": 60
-    },
-    {
-      "source": 46,
-      "target": 61
-    },
-    {
-      "source": 46,
-      "target": 63
-    },
-    {
-      "source": 46,
-      "target": 65
-    },
-    {
-      "source": 46,
-      "target": 68
-    },
-    {
-      "source": 46,
-      "target": 69
-    },
-    {
-      "source": 46,
-      "target": 73
-    },
-    {
-      "source": 46,
-      "target": 77
-    },
-    {
-      "source": 46,
-      "target": 81
-    },
-    {
-      "source": 46,
-      "target": 85
-    },
-    {
-      "source": 48,
-      "target": 50
-    },
-    {
-      "source": 48,
-      "target": 55
-    },
-    {
-      "source": 48,
-      "target": 60
-    },
-    {
-      "source": 48,
-      "target": 61
-    },
-    {
-      "source": 48,
-      "target": 63
-    },
-    {
-      "source": 48,
-      "target": 65
-    },
-    {
-      "source": 48,
-      "target": 68
-    },
-    {
-      "source": 48,
-      "target": 69
-    },
-    {
-      "source": 48,
-      "target": 73
-    },
-    {
-      "source": 48,
-      "target": 77
-    },
-    {
-      "source": 48,
-      "target": 81
-    },
-    {
-      "source": 48,
-      "target": 85
-    },
-    {
-      "source": 50,
-      "target": 55
-    },
-    {
-      "source": 50,
-      "target": 60
-    },
-    {
-      "source": 50,
-      "target": 61
-    },
-    {
-      "source": 50,
-      "target": 63
-    },
-    {
-      "source": 50,
-      "target": 65
-    },
-    {
-      "source": 50,
-      "target": 68
-    },
-    {
-      "source": 50,
-      "target": 69
-    },
-    {
-      "source": 50,
-      "target": 73
-    },
-    {
-      "source": 50,
-      "target": 77
-    },
-    {
-      "source": 50,
-      "target": 81
-    },
-    {
-      "source": 50,
-      "target": 85
-    },
-    {
-      "source": 55,
-      "target": 60
-    },
-    {
-      "source": 55,
-      "target": 61
-    },
-    {
-      "source": 55,
-      "target": 63
-    },
-    {
-      "source": 55,
-      "target": 65
-    },
-    {
-      "source": 55,
-      "target": 68
-    },
-    {
-      "source": 55,
-      "target": 69
-    },
-    {
-      "source": 55,
-      "target": 73
-    },
-    {
-      "source": 55,
-      "target": 77
-    },
-    {
-      "source": 55,
-      "target": 81
-    },
-    {
-      "source": 55,
-      "target": 85
-    },
-    {
-      "source": 60,
-      "target": 61
-    },
-    {
-      "source": 60,
-      "target": 63
-    },
-    {
-      "source": 60,
-      "target": 65
-    },
-    {
-      "source": 60,
-      "target": 68
-    },
-    {
-      "source": 60,
-      "target": 69
-    },
-    {
-      "source": 60,
-      "target": 73
-    },
-    {
-      "source": 60,
-      "target": 77
-    },
-    {
-      "source": 60,
-      "target": 81
-    },
-    {
-      "source": 60,
-      "target": 85
-    },
-    {
-      "source": 61,
-      "target": 63
-    },
-    {
-      "source": 61,
-      "target": 65
-    },
-    {
-      "source": 61,
-      "target": 68
-    },
-    {
-      "source": 61,
-      "target": 69
-    },
-    {
-      "source": 61,
-      "target": 73
-    },
-    {
-      "source": 61,
-      "target": 77
-    },
-    {
-      "source": 61,
-      "target": 81
-    },
-    {
-      "source": 61,
-      "target": 85
-    },
-    {
-      "source": 63,
-      "target": 65
-    },
-    {
-      "source": 63,
-      "target": 68
-    },
-    {
-      "source": 63,
-      "target": 69
-    },
-    {
-      "source": 63,
-      "target": 73
-    },
-    {
-      "source": 63,
-      "target": 77
-    },
-    {
-      "source": 63,
-      "target": 81
-    },
-    {
-      "source": 63,
-      "target": 85
-    },
-    {
-      "source": 65,
-      "target": 68
-    },
-    {
-      "source": 65,
-      "target": 69
-    },
-    {
-      "source": 65,
-      "target": 73
-    },
-    {
-      "source": 65,
-      "target": 77
-    },
-    {
-      "source": 65,
-      "target": 81
-    },
-    {
-      "source": 65,
-      "target": 85
-    },
-    {
-      "source": 68,
-      "target": 69
-    },
-    {
-      "source": 68,
-      "target": 73
-    },
-    {
-      "source": 68,
-      "target": 77
-    },
-    {
-      "source": 68,
-      "target": 81
-    },
-    {
-      "source": 68,
-      "target": 85
-    },
-    {
-      "source": 69,
-      "target": 73
-    },
-    {
-      "source": 69,
-      "target": 77
-    },
-    {
-      "source": 69,
-      "target": 81
-    },
-    {
-      "source": 69,
-      "target": 85
-    },
-    {
-      "source": 73,
-      "target": 77
-    },
-    {
-      "source": 73,
-      "target": 81
-    },
-    {
-      "source": 73,
-      "target": 85
-    },
-    {
-      "source": 77,
-      "target": 81
-    },
-    {
-      "source": 77,
-      "target": 85
-    },
-    {
-      "source": 81,
-      "target": 85
     },
     {
       "source": 1,
@@ -2750,34 +1100,6 @@
       "target": 37
     },
     {
-      "source": 3,
-      "target": 52
-    },
-    {
-      "source": 3,
-      "target": 56
-    },
-    {
-      "source": 3,
-      "target": 57
-    },
-    {
-      "source": 3,
-      "target": 59
-    },
-    {
-      "source": 3,
-      "target": 76
-    },
-    {
-      "source": 3,
-      "target": 79
-    },
-    {
-      "source": 3,
-      "target": 83
-    },
-    {
       "source": 8,
       "target": 10
     },
@@ -2814,34 +1136,6 @@
       "target": 37
     },
     {
-      "source": 8,
-      "target": 52
-    },
-    {
-      "source": 8,
-      "target": 56
-    },
-    {
-      "source": 8,
-      "target": 57
-    },
-    {
-      "source": 8,
-      "target": 59
-    },
-    {
-      "source": 8,
-      "target": 76
-    },
-    {
-      "source": 8,
-      "target": 79
-    },
-    {
-      "source": 8,
-      "target": 83
-    },
-    {
       "source": 10,
       "target": 20
     },
@@ -2874,34 +1168,6 @@
       "target": 37
     },
     {
-      "source": 10,
-      "target": 52
-    },
-    {
-      "source": 10,
-      "target": 56
-    },
-    {
-      "source": 10,
-      "target": 57
-    },
-    {
-      "source": 10,
-      "target": 59
-    },
-    {
-      "source": 10,
-      "target": 76
-    },
-    {
-      "source": 10,
-      "target": 79
-    },
-    {
-      "source": 10,
-      "target": 83
-    },
-    {
       "source": 20,
       "target": 23
     },
@@ -2930,34 +1196,6 @@
       "target": 37
     },
     {
-      "source": 20,
-      "target": 52
-    },
-    {
-      "source": 20,
-      "target": 56
-    },
-    {
-      "source": 20,
-      "target": 57
-    },
-    {
-      "source": 20,
-      "target": 59
-    },
-    {
-      "source": 20,
-      "target": 76
-    },
-    {
-      "source": 20,
-      "target": 79
-    },
-    {
-      "source": 20,
-      "target": 83
-    },
-    {
       "source": 23,
       "target": 27
     },
@@ -2982,34 +1220,6 @@
       "target": 37
     },
     {
-      "source": 23,
-      "target": 52
-    },
-    {
-      "source": 23,
-      "target": 56
-    },
-    {
-      "source": 23,
-      "target": 57
-    },
-    {
-      "source": 23,
-      "target": 59
-    },
-    {
-      "source": 23,
-      "target": 76
-    },
-    {
-      "source": 23,
-      "target": 79
-    },
-    {
-      "source": 23,
-      "target": 83
-    },
-    {
       "source": 27,
       "target": 28
     },
@@ -3030,34 +1240,6 @@
       "target": 37
     },
     {
-      "source": 27,
-      "target": 52
-    },
-    {
-      "source": 27,
-      "target": 56
-    },
-    {
-      "source": 27,
-      "target": 57
-    },
-    {
-      "source": 27,
-      "target": 59
-    },
-    {
-      "source": 27,
-      "target": 76
-    },
-    {
-      "source": 27,
-      "target": 79
-    },
-    {
-      "source": 27,
-      "target": 83
-    },
-    {
       "source": 28,
       "target": 32
     },
@@ -3074,34 +1256,6 @@
       "target": 37
     },
     {
-      "source": 28,
-      "target": 52
-    },
-    {
-      "source": 28,
-      "target": 56
-    },
-    {
-      "source": 28,
-      "target": 57
-    },
-    {
-      "source": 28,
-      "target": 59
-    },
-    {
-      "source": 28,
-      "target": 76
-    },
-    {
-      "source": 28,
-      "target": 79
-    },
-    {
-      "source": 28,
-      "target": 83
-    },
-    {
       "source": 32,
       "target": 33
     },
@@ -3114,34 +1268,6 @@
       "target": 37
     },
     {
-      "source": 32,
-      "target": 52
-    },
-    {
-      "source": 32,
-      "target": 56
-    },
-    {
-      "source": 32,
-      "target": 57
-    },
-    {
-      "source": 32,
-      "target": 59
-    },
-    {
-      "source": 32,
-      "target": 76
-    },
-    {
-      "source": 32,
-      "target": 79
-    },
-    {
-      "source": 32,
-      "target": 83
-    },
-    {
       "source": 33,
       "target": 34
     },
@@ -3150,176 +1276,8 @@
       "target": 37
     },
     {
-      "source": 33,
-      "target": 52
-    },
-    {
-      "source": 33,
-      "target": 56
-    },
-    {
-      "source": 33,
-      "target": 57
-    },
-    {
-      "source": 33,
-      "target": 59
-    },
-    {
-      "source": 33,
-      "target": 76
-    },
-    {
-      "source": 33,
-      "target": 79
-    },
-    {
-      "source": 33,
-      "target": 83
-    },
-    {
       "source": 34,
       "target": 37
-    },
-    {
-      "source": 34,
-      "target": 52
-    },
-    {
-      "source": 34,
-      "target": 56
-    },
-    {
-      "source": 34,
-      "target": 57
-    },
-    {
-      "source": 34,
-      "target": 59
-    },
-    {
-      "source": 34,
-      "target": 76
-    },
-    {
-      "source": 34,
-      "target": 79
-    },
-    {
-      "source": 34,
-      "target": 83
-    },
-    {
-      "source": 37,
-      "target": 52
-    },
-    {
-      "source": 37,
-      "target": 56
-    },
-    {
-      "source": 37,
-      "target": 57
-    },
-    {
-      "source": 37,
-      "target": 59
-    },
-    {
-      "source": 37,
-      "target": 76
-    },
-    {
-      "source": 37,
-      "target": 79
-    },
-    {
-      "source": 37,
-      "target": 83
-    },
-    {
-      "source": 52,
-      "target": 56
-    },
-    {
-      "source": 52,
-      "target": 57
-    },
-    {
-      "source": 52,
-      "target": 59
-    },
-    {
-      "source": 52,
-      "target": 76
-    },
-    {
-      "source": 52,
-      "target": 79
-    },
-    {
-      "source": 52,
-      "target": 83
-    },
-    {
-      "source": 56,
-      "target": 57
-    },
-    {
-      "source": 56,
-      "target": 59
-    },
-    {
-      "source": 56,
-      "target": 76
-    },
-    {
-      "source": 56,
-      "target": 79
-    },
-    {
-      "source": 56,
-      "target": 83
-    },
-    {
-      "source": 57,
-      "target": 59
-    },
-    {
-      "source": 57,
-      "target": 76
-    },
-    {
-      "source": 57,
-      "target": 79
-    },
-    {
-      "source": 57,
-      "target": 83
-    },
-    {
-      "source": 59,
-      "target": 76
-    },
-    {
-      "source": 59,
-      "target": 79
-    },
-    {
-      "source": 59,
-      "target": 83
-    },
-    {
-      "source": 76,
-      "target": 79
-    },
-    {
-      "source": 76,
-      "target": 83
-    },
-    {
-      "source": 79,
-      "target": 83
     },
     {
       "source": 4,
@@ -3342,30 +1300,6 @@
       "target": 41
     },
     {
-      "source": 4,
-      "target": 51
-    },
-    {
-      "source": 4,
-      "target": 62
-    },
-    {
-      "source": 4,
-      "target": 64
-    },
-    {
-      "source": 4,
-      "target": 75
-    },
-    {
-      "source": 4,
-      "target": 82
-    },
-    {
-      "source": 4,
-      "target": 86
-    },
-    {
       "source": 13,
       "target": 14
     },
@@ -3382,30 +1316,6 @@
       "target": 41
     },
     {
-      "source": 13,
-      "target": 51
-    },
-    {
-      "source": 13,
-      "target": 62
-    },
-    {
-      "source": 13,
-      "target": 64
-    },
-    {
-      "source": 13,
-      "target": 75
-    },
-    {
-      "source": 13,
-      "target": 82
-    },
-    {
-      "source": 13,
-      "target": 86
-    },
-    {
       "source": 14,
       "target": 29
     },
@@ -3418,30 +1328,6 @@
       "target": 41
     },
     {
-      "source": 14,
-      "target": 51
-    },
-    {
-      "source": 14,
-      "target": 62
-    },
-    {
-      "source": 14,
-      "target": 64
-    },
-    {
-      "source": 14,
-      "target": 75
-    },
-    {
-      "source": 14,
-      "target": 82
-    },
-    {
-      "source": 14,
-      "target": 86
-    },
-    {
       "source": 29,
       "target": 40
     },
@@ -3450,140 +1336,8 @@
       "target": 41
     },
     {
-      "source": 29,
-      "target": 51
-    },
-    {
-      "source": 29,
-      "target": 62
-    },
-    {
-      "source": 29,
-      "target": 64
-    },
-    {
-      "source": 29,
-      "target": 75
-    },
-    {
-      "source": 29,
-      "target": 82
-    },
-    {
-      "source": 29,
-      "target": 86
-    },
-    {
       "source": 40,
       "target": 41
-    },
-    {
-      "source": 40,
-      "target": 51
-    },
-    {
-      "source": 40,
-      "target": 62
-    },
-    {
-      "source": 40,
-      "target": 64
-    },
-    {
-      "source": 40,
-      "target": 75
-    },
-    {
-      "source": 40,
-      "target": 82
-    },
-    {
-      "source": 40,
-      "target": 86
-    },
-    {
-      "source": 41,
-      "target": 51
-    },
-    {
-      "source": 41,
-      "target": 62
-    },
-    {
-      "source": 41,
-      "target": 64
-    },
-    {
-      "source": 41,
-      "target": 75
-    },
-    {
-      "source": 41,
-      "target": 82
-    },
-    {
-      "source": 41,
-      "target": 86
-    },
-    {
-      "source": 51,
-      "target": 62
-    },
-    {
-      "source": 51,
-      "target": 64
-    },
-    {
-      "source": 51,
-      "target": 75
-    },
-    {
-      "source": 51,
-      "target": 82
-    },
-    {
-      "source": 51,
-      "target": 86
-    },
-    {
-      "source": 62,
-      "target": 64
-    },
-    {
-      "source": 62,
-      "target": 75
-    },
-    {
-      "source": 62,
-      "target": 82
-    },
-    {
-      "source": 62,
-      "target": 86
-    },
-    {
-      "source": 64,
-      "target": 75
-    },
-    {
-      "source": 64,
-      "target": 82
-    },
-    {
-      "source": 64,
-      "target": 86
-    },
-    {
-      "source": 75,
-      "target": 82
-    },
-    {
-      "source": 75,
-      "target": 86
-    },
-    {
-      "source": 82,
-      "target": 86
     },
     {
       "source": 5,
@@ -3610,30 +1364,6 @@
       "target": 31
     },
     {
-      "source": 5,
-      "target": 53
-    },
-    {
-      "source": 5,
-      "target": 54
-    },
-    {
-      "source": 5,
-      "target": 67
-    },
-    {
-      "source": 5,
-      "target": 71
-    },
-    {
-      "source": 5,
-      "target": 72
-    },
-    {
-      "source": 5,
-      "target": 80
-    },
-    {
       "source": 7,
       "target": 11
     },
@@ -3654,30 +1384,6 @@
       "target": 31
     },
     {
-      "source": 7,
-      "target": 53
-    },
-    {
-      "source": 7,
-      "target": 54
-    },
-    {
-      "source": 7,
-      "target": 67
-    },
-    {
-      "source": 7,
-      "target": 71
-    },
-    {
-      "source": 7,
-      "target": 72
-    },
-    {
-      "source": 7,
-      "target": 80
-    },
-    {
       "source": 11,
       "target": 19
     },
@@ -3694,30 +1400,6 @@
       "target": 31
     },
     {
-      "source": 11,
-      "target": 53
-    },
-    {
-      "source": 11,
-      "target": 54
-    },
-    {
-      "source": 11,
-      "target": 67
-    },
-    {
-      "source": 11,
-      "target": 71
-    },
-    {
-      "source": 11,
-      "target": 72
-    },
-    {
-      "source": 11,
-      "target": 80
-    },
-    {
       "source": 19,
       "target": 24
     },
@@ -3730,30 +1412,6 @@
       "target": 31
     },
     {
-      "source": 19,
-      "target": 53
-    },
-    {
-      "source": 19,
-      "target": 54
-    },
-    {
-      "source": 19,
-      "target": 67
-    },
-    {
-      "source": 19,
-      "target": 71
-    },
-    {
-      "source": 19,
-      "target": 72
-    },
-    {
-      "source": 19,
-      "target": 80
-    },
-    {
       "source": 24,
       "target": 30
     },
@@ -3762,188 +1420,16 @@
       "target": 31
     },
     {
-      "source": 24,
-      "target": 53
-    },
-    {
-      "source": 24,
-      "target": 54
-    },
-    {
-      "source": 24,
-      "target": 67
-    },
-    {
-      "source": 24,
-      "target": 71
-    },
-    {
-      "source": 24,
-      "target": 72
-    },
-    {
-      "source": 24,
-      "target": 80
-    },
-    {
       "source": 30,
       "target": 31
-    },
-    {
-      "source": 30,
-      "target": 53
-    },
-    {
-      "source": 30,
-      "target": 54
-    },
-    {
-      "source": 30,
-      "target": 67
-    },
-    {
-      "source": 30,
-      "target": 71
-    },
-    {
-      "source": 30,
-      "target": 72
-    },
-    {
-      "source": 30,
-      "target": 80
-    },
-    {
-      "source": 31,
-      "target": 53
-    },
-    {
-      "source": 31,
-      "target": 54
-    },
-    {
-      "source": 31,
-      "target": 67
-    },
-    {
-      "source": 31,
-      "target": 71
-    },
-    {
-      "source": 31,
-      "target": 72
-    },
-    {
-      "source": 31,
-      "target": 80
-    },
-    {
-      "source": 53,
-      "target": 54
-    },
-    {
-      "source": 53,
-      "target": 67
-    },
-    {
-      "source": 53,
-      "target": 71
-    },
-    {
-      "source": 53,
-      "target": 72
-    },
-    {
-      "source": 53,
-      "target": 80
-    },
-    {
-      "source": 54,
-      "target": 67
-    },
-    {
-      "source": 54,
-      "target": 71
-    },
-    {
-      "source": 54,
-      "target": 72
-    },
-    {
-      "source": 54,
-      "target": 80
-    },
-    {
-      "source": 67,
-      "target": 71
-    },
-    {
-      "source": 67,
-      "target": 72
-    },
-    {
-      "source": 67,
-      "target": 80
-    },
-    {
-      "source": 71,
-      "target": 72
-    },
-    {
-      "source": 71,
-      "target": 80
-    },
-    {
-      "source": 72,
-      "target": 80
     },
     {
       "source": 15,
       "target": 45
     },
     {
-      "source": 15,
-      "target": 58
-    },
-    {
-      "source": 15,
-      "target": 78
-    },
-    {
-      "source": 45,
-      "target": 58
-    },
-    {
-      "source": 45,
-      "target": 78
-    },
-    {
-      "source": 58,
-      "target": 78
-    },
-    {
       "source": 16,
       "target": 17
-    },
-    {
-      "source": 16,
-      "target": 49
-    },
-    {
-      "source": 17,
-      "target": 49
-    },
-    {
-      "source": 66,
-      "target": 70
-    },
-    {
-      "source": 66,
-      "target": 74
-    },
-    {
-      "source": 70,
-      "target": 74
     }
   ]
 }
