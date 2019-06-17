@@ -1,9 +1,27 @@
 // read in a graph
 var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/data/graph.json";
-d3.json(url, function(error, graph) {
 
-    var width = 640;
-    var height = 720;
+
+d3.json(url, function(error, data) {
+    console.log(data);
+});
+
+/*.then(function(data) {
+  console.log(data);
+});*/
+
+
+// d3.json(url, function(error, graph) {
+
+//     // console.log(graph);
+
+//     var width = 640;
+//     var height = 720;
+//     console.log("finished");
+
+// });
+
+    /*console.log(width);
 
     // segment the json
     var nodes = graph.nodes;
@@ -100,4 +118,4 @@ d3.json(url, function(error, graph) {
 
     }
 
-});
+});*/
