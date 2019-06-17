@@ -69,8 +69,8 @@ nodes["img"] = [IMG_STRING.format(node.replace(" ", "_")) for node in nodes.inde
 # OUTPUT
 ################################################################################
 
-# create the graph
-n = nodes.to_dict("index")
+# create the list of nodes
+n = list(nodes.to_dict("index").values())
 
 # save it
 with open("nodes.json", "w") as f:
