@@ -20,10 +20,30 @@ COL = "color"
 R_MIN = 8
 R_MAX = 30
 
+################################################################################
+# CREATE A MAP FROM DATE TO ARRAY
+################################################################################
+
+date_map = dict()
+for i, row in days.iterrows():
+    row = row.tolist()
+    date = row[0]
+    not_null = [e for e in row[1:] if e != ""]
+    if (date in date_map):
+        date_map[date] += not_null
+    else:
+        date_map[date] = not_null
+
+# for e in date_map.items():
+#     print(e)
+
 
 ################################################################################
 # CREATE THE NODES
 ################################################################################
+
+# get images
+images = os.listdir("../images")
 
 # get counts
 items = []
@@ -32,10 +52,23 @@ for i, row in days.iterrows():
     items.extend(not_null)
 counts = Counter(items)
 
+
+print("NEED PICTURES:")
+for item in counts.keys():
+    image_name = item.replace(" ", "_") + ".png"
+    if (image_name not in images):
+        print(item)
+        continue
+
+print("")
+print("COUNTS:")
+for e in counts.most_common(len(counts)):
+    print(e)
+
 # add count column
 data = {"item": list(counts.keys()), "n_worn": list(counts.values())}
 count_df = pd.DataFrame(data).set_index("item")
-nodes = nodes.join(count_df)
+nodes = count_df.join(nodes)
 
 # scale the counts to be reasonable
 old_min = min(nodes["n_worn"])
@@ -74,7 +107,7 @@ for group in groups:
 # create the graph
 n = nodes.to_dict("index")
 g = json.dumps({"nodes": n, "links": all_links})
-# save it
 
+# save it
 with open("graph.json", "w") as f:
     f.write(g)
