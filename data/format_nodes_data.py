@@ -51,8 +51,12 @@ count_df = pd.DataFrame(data).set_index("item")
 nodes = count_df.join(nodes)
 
 # TEMP
-# remove the rows where i didn't take a pic yet
+# remove the rows where i don't have node info
+# or a picture
 nodes = nodes[nodes["type"].notna()]
+names = [node.replace(" ", "_") + ".png" for node in nodes.index.tolist()]
+nodes["mask"] = [(name in images) for name in names]
+nodes = nodes[nodes["mask"] == True]
 
 # scale the counts to be reasonable
 old_min = min(nodes["n_worn"])
@@ -74,6 +78,9 @@ nodes["img"] = [IMG_STRING.format(node.replace(" ", "_")) for node in nodes.inde
 ################################################################################
 # OUTPUT
 ################################################################################
+
+# readable for meeeee
+nodes.to_csv("nodes.csv", index=False)
 
 # create the list of nodes
 n = list(nodes.to_dict("index").values())
