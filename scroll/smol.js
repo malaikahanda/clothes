@@ -11,45 +11,31 @@ d3.json(url).then(function(nodes) {
 
   var simulation = d3.forceSimulation(nodes)
     .force('charge', d3.forceManyBody().strength(5))
-    .force('x', d3.forceX().x(function(d) {
-      return xCenter[d.sorter]; // this can be d.xCenter?
-    }))
-    .force('y', d3.forceY().y(function(d) {
-      return yCenter[d.sorter]; // this can be d.xCenter?
-    }))
-    .force('collision', d3.forceCollide().radius(function(d) {
-      return d.radius;
-    }))
+    .force('x', d3.forceX().x(function(d) { return xCenter[d.sorter]; }))
+    .force('y', d3.forceY().y(function(d) { return yCenter[d.sorter]; }))
+    .force('collision', d3.forceCollide().radius(function(d) { return d.radius; }))
     .on('tick', ticked);
 
   console.log(nodes);
 
   function ticked() {
-    var u = d3.select('svg g')
-      .selectAll('circle')
-      .data(nodes);
+
+    var u = d3.select("svg g")
+      .selectAll("image")
+      // .selectAll("circle")
+      .data(nodes)
 
     u.enter()
-      .append('circle')
-      .attr('r', function(d) {
-        return d.radius;
-      })
-      .style('fill', function(d) {
-        return d.color; // this can be d.color?
-      })
+      .append("image")
+      .attr("xlink:href", function(d) { return d.img; })
+      .attr("width", function(d) { return d.radius * 2; })
+      .attr("height", function(d) { return d.radius * 2; })
       .merge(u)
-      .attr('cx', function(d) {
-        return d.x;
-      })
-      .attr('cy', function(d) {
-        return d.y;
-      })
+      .attr("x", function(d) { return d.x; })
+      .attr("y", function(d) { return d.y; });
 
     u.exit().remove();
 
   }
-
-
-
 
 });
