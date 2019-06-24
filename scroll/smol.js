@@ -1,35 +1,27 @@
 var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/data/nodes.json";
 d3.json(url).then(function(nodes) {
 
-  console.log(nodes);
 
-
-
-  var width = 600, height = 400;
-
-  var colorScale = ['orange', 'lightblue', '#B19CD9']; // unnecessary
-  var xCenter = [100, 300, 500] // unnecessary
-
-  // read in from json
-  var numNodes = 100;
-  var nodes = d3.range(numNodes).map(function(d, i) {
-    return {
-      radius: Math.random() * 25,
-      category: i % 3
-    }
-  });
+  var width = 1280, height = 720;
+  var xCenter = [0, 200, 400, 600, 800, 1200, 1280];
+  var yCenter = [-150, 0, 150, -150, 0, 150, 0];
 
   console.log(nodes);
 
   var simulation = d3.forceSimulation(nodes)
     .force('charge', d3.forceManyBody().strength(5))
     .force('x', d3.forceX().x(function(d) {
-      return xCenter[d.category]; // this can be d.xCenter?
+      return xCenter[d.sorter]; // this can be d.xCenter?
+    }))
+    .force('y', d3.forceY().y(function(d) {
+      return yCenter[d.sorter]; // this can be d.xCenter?
     }))
     .force('collision', d3.forceCollide().radius(function(d) {
       return d.radius;
     }))
     .on('tick', ticked);
+
+  console.log(nodes);
 
   function ticked() {
     var u = d3.select('svg g')
@@ -42,7 +34,7 @@ d3.json(url).then(function(nodes) {
         return d.radius;
       })
       .style('fill', function(d) {
-        return colorScale[d.category]; // this can be d.color?
+        return d.color; // this can be d.color?
       })
       .merge(u)
       .attr('cx', function(d) {

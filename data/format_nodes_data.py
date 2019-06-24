@@ -64,6 +64,10 @@ nodes["sorter"] = nodes[COL].cat.codes
 IMG_STRING = "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/{}.png"
 nodes["img"] = [IMG_STRING.format(node.replace(" ", "_")) for node in nodes.index.tolist()]
 
+# TEMP
+# remove the rows where i didn't take a pic yet
+nodes = nodes[nodes["type"].notna()]
+
 
 ################################################################################
 # OUTPUT
