@@ -17,7 +17,7 @@ days = pd.read_csv("days.csv").fillna("")
 images = os.listdir("../images")
 
 # globals
-COL = "color"
+COL = "type"
 R_MIN = 8
 R_MAX = 30
 
@@ -50,6 +50,10 @@ data = {"item": list(counts.keys()), "n_worn": list(counts.values())}
 count_df = pd.DataFrame(data).set_index("item")
 nodes = count_df.join(nodes)
 
+# TEMP
+# remove the rows where i didn't take a pic yet
+nodes = nodes[nodes["type"].notna()]
+
 # scale the counts to be reasonable
 old_min = min(nodes["n_worn"])
 old_max = max(nodes["n_worn"])
@@ -60,13 +64,11 @@ nodes = nodes.round({"radius": 0})
 nodes[COL] = nodes[COL].astype("category")
 nodes["sorter"] = nodes[COL].cat.codes
 
+print(sorted(nodes["sorter"].unique()))
+
 # add image column
 IMG_STRING = "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/{}.png"
 nodes["img"] = [IMG_STRING.format(node.replace(" ", "_")) for node in nodes.index.tolist()]
-
-# TEMP
-# remove the rows where i didn't take a pic yet
-nodes = nodes[nodes["type"].notna()]
 
 
 ################################################################################

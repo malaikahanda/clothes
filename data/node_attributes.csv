@@ -6,8 +6,8 @@ dark skinny jeans,pants,blue,denim
 cream dress,dress,white,solid
 black ripped jeans,pants,black,denim
 blue plaid skirt,skirt,blue,plaid
-tribal tank top,top,blue,tribal
-black triangle dress,dress,black,geometric
+tribal tank top,top,blue,other
+black triangle dress,dress,black,other
 leggings,pants,black,solid
 navy blue romper,dress,blue,floral
 embroidered dress,dress,blue,floral
@@ -19,7 +19,7 @@ light flared jeans,pants,blue,denim
 sparkly grey dress,dress,grey,other
 hawaiian shirt,top,blue,other
 soft blue button down,top,blue,polka dots
-r&g t shirt,top,multi,other
+r&g t shirt,top,other,other
 purple lace dress,dress,purple,lace
 flower crop top,top,red,floral
 grey striped sweater,sweater,grey,stripes
@@ -30,14 +30,14 @@ red lace up dress,dress,red,solid
 grey flowered sweater,sweater,grey,floral
 blue plaid flannel,top,blue,plaid
 grey crop top,top,grey,solid
-tribal crop top,top,grey,tribal
+tribal crop top,top,grey,other
 black boots,shoes,black,solid
 black circle skirt,skirt,black,solid
 black button skirt,skirt,black,solid
 red plaid flannel,top,red,plaid
 long sleeve lace crop top,top,white,lace
 red tank top,top,red,lace
-purple triangle dress,dress,purple,geometric
+purple triangle dress,dress,purple,other
 maroon sweater,sweater,red,stripes
 alpaca sweater,sweater,grey,other
 pink tee,top,pink,solid
@@ -55,7 +55,7 @@ grey cardigan,sweater,grey,solid
 new black boots,shoes,black,solid
 sneakers,shoes,black,solid
 thirsty thursday tank,top,black,other
-maroon skirt,skirt,red,geometric
+maroon skirt,skirt,red,other
 black vans,shoes,black,solid
 gold vans,shoes,black,other
 black bra,other,black,lace
@@ -72,7 +72,7 @@ black high waisted shorts,shorts,black,denim
 vine dress,dress,green,floral
 nate's striped shirt,top,grey,stripes
 grey sparkly dress,dress,grey,other
-triangle crop top,top,grey,geometric
+triangle crop top,top,grey,other
 black tank top,top,black,solid
 green romper,romper,green,floral
 maroon bra,other,red,floral
@@ -89,7 +89,7 @@ jumpsuit,romper,black,solid
 red jumper,dress,red,plaid
 pink flowered dress,dress,pink,floral
 pink high-low dress,dress,pink,solid
-cheap long dress,dress,black,geometric
+cheap long dress,dress,black,other
 red gown,dress,red,solid
 red canvas dress,dress,red,solid
 red maxi skirt,skirt,red,other

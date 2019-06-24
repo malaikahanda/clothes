@@ -3,8 +3,9 @@ d3.json(url).then(function(nodes) {
 
 
   var width = 1280, height = 720;
-  var xCenter = [0, 200, 400, 600, 800, 1200, 1280];
-  var yCenter = [-150, 0, 150, -150, 0, 150, 0];
+  // this needs to be better lol
+  var xCenter = [50, 200, 350, 500, 50, 200, 350, 500, 50, 200, 350, 500];
+  var yCenter = [-150, -150, -150, -150, 0, 0, 0, 0, 150, 150, 150, 150];
 
   console.log(nodes);
 
