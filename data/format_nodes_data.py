@@ -33,16 +33,16 @@ for i, row in days.iterrows():
     items.extend(not_null)
 counts = Counter(items)
 
-# print("NEED PICTURES:")
+print("NEED PICTURES:")
 for item in counts.keys():
     image_name = item.replace(" ", "_") + ".png"
     if (image_name not in images):
         print(item)
 
-# print("")
-# print("COUNTS:")
+print("")
+print("COUNTS:")
 for e in counts.most_common(len(counts)):
-    # print(e)
+    print(e)
     continue
 
 # add count column
