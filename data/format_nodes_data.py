@@ -39,11 +39,11 @@ for item in counts.keys():
     if (image_name not in images):
         print(item)
 
-print("")
-print("COUNTS:")
-for e in counts.most_common(len(counts)):
-    print(e)
-    continue
+# print("")
+# print("COUNTS:")
+# for e in counts.most_common(len(counts)):
+#     print(e)
+#     continue
 
 # add count column
 data = {"item": list(counts.keys()), "n_worn": list(counts.values())}
@@ -67,8 +67,6 @@ nodes = nodes.round({"radius": 0})
 # map the sorting column to an int
 nodes[COL] = nodes[COL].astype("category")
 nodes["sorter"] = nodes[COL].cat.codes
-
-print(sorted(nodes["sorter"].unique()))
 
 # add image column
 IMG_STRING = "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/{}.png"
