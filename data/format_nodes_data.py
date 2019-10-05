@@ -33,11 +33,11 @@ for i, row in days.iterrows():
     items.extend(not_null)
 counts = Counter(items)
 
-print("NEED PICTURES:")
-for item in counts.keys():
-    image_name = item.replace(" ", "_") + ".png"
-    if (image_name not in images):
-        print(item)
+# print("NEED PICTURES:")
+# for item in counts.keys():
+#     image_name = item.replace(" ", "_") + ".png"
+#     if (image_name not in images):
+#         print(item)
 
 # print("")
 # print("COUNTS:")

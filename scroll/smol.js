@@ -1,3 +1,7 @@
+
+// TODO: figure out where this function goes
+// maybe nest it within the ticked function??
+// not updating properly 
 function displayRadioValue() { 
   var ele = document.getElementsByName("sorter"); 
   var selected = null;
@@ -15,16 +19,16 @@ var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/data/no
 d3.json(url).then(function(nodes) {
 
   // sortby
-  var sorter = "color";
-  /// sorter = displayRadioValue(); // TODO: change this eventually to be an input
-  var allSorters = nodes.map(d => d[sorter]);
-  var uniqueSorters = Array.from(new Set(allSorters));
-  var numSorters = uniqueSorters.length;
-  for (i = 0; i < nodes.length; i ++) {
-    var node = nodes[i];
-    var category = uniqueSorters.findIndex(x => (x === node[sorter]));
-    node.sorter = category;
-  }
+  // var sorter = "color"; // TODO: change this eventually to be an input
+  // sorter = displayRadioValue();
+  // var allSorters = nodes.map(d => d[sorter]);
+  // var uniqueSorters = Array.from(new Set(allSorters));
+  // var numSorters = uniqueSorters.length;
+  // for (i = 0; i < nodes.length; i ++) {
+  //   var node = nodes[i];
+  //   var category = uniqueSorters.findIndex(x => (x === node[sorter]));
+  //   node.sorter = category;
+  // }
 
 
   var width = 1280, height = 720;
@@ -37,14 +41,30 @@ d3.json(url).then(function(nodes) {
     .force('charge', d3.forceManyBody().strength(5))
     .force('x', d3.forceX().x(function(d) { return xCenter[d.sorter]; }))
     .force('y', d3.forceY().y(function(d) { return yCenter[d.sorter]; }))
-    // TODO: if the radius is fixed, this should be dynamic as well, based on screen size
-    .force('collision', d3.forceCollide().radius(20))
+    // this magic number should be half of the height/width magic numbers that
+    // are in the ticked function
+    .force('collision', d3.forceCollide().radius(14))
     // still unsure... do i want to size nodes? or keep them constant
     // .force('collision', d3.forceCollide().radius(function(d) { return d.radius; }))
     .on('tick', ticked);
 
 
   function ticked() {
+
+    // var sorter = "color"; // TODO: change this eventually to be an input
+    var sorter = displayRadioValue();
+    var allSorters = nodes.map(d => d[sorter]);
+    var uniqueSorters = Array.from(new Set(allSorters));
+    var numSorters = uniqueSorters.length;
+    for (i = 0; i < nodes.length; i ++) {
+      var node = nodes[i];
+      var category = uniqueSorters.findIndex(x => (x === node[sorter]));
+      node.sorter = category;
+    }
+
+    simulation = d3.forceSimulation(nodes)
+      .force('x', d3.forceX().x(function(d) { return xCenter[d.sorter]; }))
+      .force('y', d3.forceY().y(function(d) { return yCenter[d.sorter]; }));
 
     var u = d3.select("svg g")
       .selectAll("image")
@@ -54,8 +74,9 @@ d3.json(url).then(function(nodes) {
     u.enter()
       .append("image")
       .attr("xlink:href", function(d) { return d.img; })
-      .attr("width", 40)
-      .attr("height", 40)
+      // TODO: if the radius is fixed, this should be dynamic as well, based on screen size
+      .attr("width", 28)
+      .attr("height", 28)
       // .attr("width", function(d) { return d.radius * 2; })
       // .attr("height", function(d) { return d.radius * 2; })
       .merge(u)
