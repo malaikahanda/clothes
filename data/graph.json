@@ -866,9 +866,9 @@
     },
     {
       "n_worn": 3,
-      "type": NaN,
-      "color": NaN,
-      "pattern": NaN,
+      "type": "other",
+      "color": "red",
+      "pattern": "solid",
       "radius": 9.0,
       "img": "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/velvet_maroon_sweater.png"
     },

@@ -15,11 +15,11 @@ function displayRadioValue(idName) {
   return selected;
 } 
 
-var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/data/nodes.json";
+var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/data/graph.json";
 d3.json(url).then(function(g) {
 
   var nodes = g.nodes;
-  var edges = g.edges;
+  var edges = g.links;
 
   var width = 1280, height = 720;
   
@@ -31,7 +31,7 @@ d3.json(url).then(function(g) {
 
   var graphMode = displayRadioValue("view") == "graph";
 
-  if graphMode {
+  if (graphMode) {
     var simulation = d3.forceSimulation(nodes)
         .force('charge', d3.forceManyBody().strength(5))
         .force('x', d3.forceX().x(function(d) { return xCenter[d.sorter]; }))
