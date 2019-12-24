@@ -16,26 +16,8 @@ nodes = pd.read_csv("node_attributes.csv").set_index("item")
 days = pd.read_csv("days.csv").fillna("")
 
 # globals
-COL = "color"
 R_MIN = 8
 R_MAX = 30
-
-################################################################################
-# CREATE A MAP FROM DATE TO ARRAY
-################################################################################
-
-date_map = dict()
-for i, row in days.iterrows():
-    row = row.tolist()
-    date = row[0]
-    not_null = [e for e in row[1:] if e != ""]
-    if (date in date_map):
-        date_map[date] += not_null
-    else:
-        date_map[date] = not_null
-
-# for e in date_map.items():
-#     print(e)
 
 
 ################################################################################
@@ -43,7 +25,9 @@ for i, row in days.iterrows():
 ################################################################################
 
 # get images
-images = os.listdir("../images")
+images = [
+  i.replace("_", " ").replace(".png", "")
+  for i in os.listdir("../images")]
 
 # get counts
 items = []
@@ -53,13 +37,13 @@ for i, row in days.iterrows():
 counts = Counter(items)
 
 
+#temp
 print("NEED PICTURES:")
 for item in counts.keys():
-    image_name = item.replace(" ", "_") + ".png"
-    if (image_name not in images):
+    if (item not in images):
         print(item)
-        continue
 
+# temp
 print("")
 print("COUNTS:")
 for e in counts.most_common(len(counts)):
@@ -69,6 +53,9 @@ for e in counts.most_common(len(counts)):
 data = {"item": list(counts.keys()), "n_worn": list(counts.values())}
 count_df = pd.DataFrame(data).set_index("item")
 nodes = count_df.join(nodes)
+
+# temp
+nodes = nodes[nodes.index.isin(images)]
 
 # scale the counts to be reasonable
 old_min = min(nodes["n_worn"])
@@ -85,17 +72,18 @@ nodes["img"] = [IMG_STRING.format(node.replace(" ", "_")) for node in nodes.inde
 # CREATE THE LINKS
 ################################################################################
 
+# keep node ids
+node_ids = dict()
+
+# iterate through the days and create links between all items
 all_links = []
-nodes = nodes.reset_index()
-
-# get all the possible values of COL
-groups = nodes[COL].unique()
-
-# for each value, generate a complete graph
-for group in groups:
-    cluster = nodes[nodes[COL] == group]
-    indices = cluster.index.tolist()
-    pairs = list(itertools.combinations(indices, 2))
+for i, row in days.iterrows():
+    not_null = [e for e in row.tolist()[1:] if e != "" and e in images]
+    for item in not_null:
+        if item not in node_ids:
+            node_ids[item] = len(node_ids)
+    ids = [node_ids[n] for n in not_null]
+    pairs = list(itertools.combinations(ids, 2))
     links = [{"source": x, "target": y} for (x, y) in pairs]
     all_links.extend(links)
 
@@ -104,9 +92,15 @@ for group in groups:
 # OUTPUT
 ################################################################################
 
-# create the graph
-n = nodes.to_dict("index")
-g = json.dumps({"nodes": n, "links": all_links})
+# format the nodes into a list
+n_list = [0] * len(node_ids)
+n_dict = nodes.to_dict("index")
+for item, info in n_dict.items():
+    node_id = node_ids[item]
+    n_list[node_id] = info
+
+# format the graph into json
+g = json.dumps({"nodes": n_list, "links": all_links})
 
 # save it
 with open("graph.json", "w") as f:
