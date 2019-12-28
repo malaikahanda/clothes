@@ -15,25 +15,26 @@ function displayRadioValue(idName) {
   return selected;
 } 
 
-var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/data/graph.json";
-d3.json(url).then(function(g) {
+var url = "https://raw.githubusercontent.com/malaikahanda/clothes/master/data/nodes.json";
+d3.json(url).then(function(nodes) {
 
-  var nodes = g.nodes;
-  var edges = g.links;
+
+  // var nodes = g.nodes;
+  // var edges = g.links;
 
   var width = 1280, height = 720;
   
   var picR = 5;
 
   // TODO: this needs to be better lol-- should adjust dynamically based on screen size
-  var xCenter = [100, 300, 500, 700, 100, 300, 500, 700, 100, 300, 500, 700];
-  var yCenter = [-200, -200, -200, -200, 0, 0, 0, 0, 200, 200, 200, 200];
+  var xCenter = [100, 200, 300, 400, 100, 200, 300, 400, 100, 200, 300, 400];
+  var yCenter = [-150, -150, -150, -150, 0, 0, 0, 0, 150, 150, 150, 150];
 
   var graphMode = displayRadioValue("view") == "graph";
 
   if (graphMode) {
     var simulation = d3.forceSimulation(nodes)
-        .force('charge', d3.forceManyBody().strength(5))
+        .force('charge', d3.forceManyBody().strength(2))
         .force('x', d3.forceX().x(function(d) { return xCenter[d.sorter]; }))
         .force('y', d3.forceY().y(function(d) { return yCenter[d.sorter]; }))
         .force('collision', d3.forceCollide().radius(picR))
@@ -42,9 +43,9 @@ d3.json(url).then(function(g) {
         .on('tick', ticked);
   } else {
     var simulation = d3.forceSimulation(nodes)
-        .force('charge', d3.forceManyBody().strength(5))
-        .force('x', d3.forceX().x(function(d) { return xCenter[d.sorter]; }))
-        .force('y', d3.forceY().y(function(d) { return yCenter[d.sorter]; }))
+        .force('charge', d3.forceManyBody().strength(2))
+        .force('x', d3.forceX().x(function(d) { return yCenter[d.sorter]; }))
+        .force('y', d3.forceY().y(function(d) { return xCenter[d.sorter]; }))
         .force('collision', d3.forceCollide().radius(picR))
         // still unsure... do i want to size nodes? or keep them constant
         // .force('collision', d3.forceCollide().radius(function(d) { return d.radius; }))
@@ -52,17 +53,20 @@ d3.json(url).then(function(g) {
   }
 
 
+
   function ticked() {
 
-    var sorter = displayRadioValue("sorter");
-    var allSorters = nodes.map(d => d[sorter]);
-    var uniqueSorters = Array.from(new Set(allSorters));
-    var numSorters = uniqueSorters.length;
+    var sortingCategory = displayRadioValue("sorter");
+    console.log(sortingCategory);
+    var allValues = nodes.map(d => d[sortingCategory]);
+    var uniqueValues = Array.from(new Set(allValues));
+    var numUniqueValues = uniqueValues.length;
     for (i = 0; i < nodes.length; i ++) {
       var node = nodes[i];
-      var category = uniqueSorters.findIndex(x => (x === node[sorter]));
+      var category = uniqueValues.findIndex(x => (x === node[sortingCategory]));
       node.sorter = category;
     }
+
 
     simulation = d3.forceSimulation(nodes)
       .force('x', d3.forceX().x(function(d) { return xCenter[d.sorter]; }))
