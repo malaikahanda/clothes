@@ -17,8 +17,8 @@ days = pd.read_csv("days.csv").fillna("")
 
 # globals
 IMG_DIR = "../images"
-R_MIN = 20
-R_MAX = 30
+R_MIN = 25
+R_MAX = 40
 IMG_STRING = "https://raw.githubusercontent.com/malaikahanda/clothes/master/images/{}.png"
 
 
